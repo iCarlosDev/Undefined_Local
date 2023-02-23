@@ -100,6 +100,7 @@ public class PlayerMovement : MonoBehaviour
       
         //El eje "Y" irá progresivamente a 0;
         velocity.y += gravity * Time.deltaTime;
+        
         //Movemos al personaje en el eje "Y" cada vez que saltemos;
         _characterController.Move(velocity * Time.deltaTime);
     }

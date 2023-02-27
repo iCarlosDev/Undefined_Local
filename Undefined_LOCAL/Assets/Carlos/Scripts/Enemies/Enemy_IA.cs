@@ -32,7 +32,7 @@ public class Enemy_IA : MonoBehaviour
         waypointsListIndex = 0;
     }
 
-    private void Start()
+    public virtual void Start()
     {
         //Si hay waypoints en la lista se setea el destino en el primero de esta;
         if (waypointsList.Count != 0)

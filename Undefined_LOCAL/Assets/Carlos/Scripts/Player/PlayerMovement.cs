@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -42,9 +43,25 @@ public class PlayerMovement : MonoBehaviour
         groundCheck = transform.GetChild(2);
     }
 
+    private void Start()
+    {
+        speed = 2f;
+    }
+
     private void Update()
     {
         Movement();
+
+        if (isGrounded && _characterController.velocity.magnitude >= 0.1f)
+        {
+            Sprint();   
+        }
+        else
+        {
+            speed = 2f;
+            _animmator.SetFloat("SpeedAnimation", 2.25f);
+        }
+        
         Jump();
     }
 
@@ -70,13 +87,28 @@ public class PlayerMovement : MonoBehaviour
             //guardamos donde rota en "Y" el player por su eje "Z" (dando así que siempre donde mire el player será al frente);
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             //Movemos el player hacia el frente;
-            _characterController.SimpleMove(moveDir.normalized * speed);
+            _characterController.Move(moveDir.normalized * speed * Time.deltaTime);
             
             _animmator.SetBool("IsWalking", true);
         }
         else
         {
             _animmator.SetBool("IsWalking", false);
+        }
+    }
+
+    private void Sprint()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            speed = 4f;
+            _animmator.SetFloat("SpeedAnimation", 3f);
+        }
+
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            speed = 2f;
+            _animmator.SetFloat("SpeedAnimation", 2.25f);
         }
     }
 

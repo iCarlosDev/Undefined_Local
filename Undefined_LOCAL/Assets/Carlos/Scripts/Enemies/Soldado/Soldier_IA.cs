@@ -78,7 +78,7 @@ public class Soldier_IA : Enemy_IA
         //Comprobamos que el NPC ha llegado a la última posición donde ha visto al Player;
         if (Vector3.Distance(transform.position, _navMeshAgent.destination) < 0.1f)
         {
-            Debug.Log("Finding Player...");
+            Debug.Log("<color=red>Finding Player...</color>");
             
             //Comprobamos si hay waypoints en la lista y si está buscando en una sala;
             if (roomWaypoints.Count != 0 && searchingInRoom)
@@ -137,7 +137,7 @@ public class Soldier_IA : Enemy_IA
     
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("RoomCollider"))
+        if (other.CompareTag("RoomCollider") || other.CompareTag("SafeRoomCollider"))
         {
             SetRoomWaypoints(other);
             searchingInRoom = true;
@@ -146,7 +146,7 @@ public class Soldier_IA : Enemy_IA
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("RoomCollider"))
+        if (other.CompareTag("RoomCollider") || other.CompareTag("SafeRoomCollider"))
         {
             searchingInRoom = false;
         }

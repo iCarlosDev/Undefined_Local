@@ -4,5 +4,10 @@ using UnityEngine;
 
 public class Scientist_IA : Enemy_IA
 {
-    
+    public override void Update()
+    {
+        base.Update();
+        
+        
+    }
 }

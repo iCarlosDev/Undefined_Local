@@ -43,7 +43,6 @@ public class Enemy_IA : MonoBehaviour
 
     public virtual void Update()
     {
-        Debug.Log(_navMeshAgent.destination);
         Debug.DrawLine(transform.position, _navMeshAgent.destination, Color.red, 0.1f);
         CheckPlayerDetectedStatus();
     }

@@ -16,8 +16,13 @@ public class Level1Manager : MonoBehaviour
     [SerializeField] private bool alarmActivated;
     
     //GETTERS && SETTERS//
-    public bool AlarmActivated => alarmActivated;
+    public bool AlarmActivated
+    {
+        get => alarmActivated;
+        set => alarmActivated = value;
+    }
     public List<Transform> SafeRoomWaypointsList => safeRoomWaypointsList;
+    public Transform AlarmWaypoint => alarmWaypoint;
 
     ///////////////////////
     

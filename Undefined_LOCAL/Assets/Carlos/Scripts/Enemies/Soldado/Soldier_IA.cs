@@ -100,7 +100,12 @@ public class Soldier_IA : Enemy_IA
             {
                 _navMeshAgent.ResetPath();
                 findPlayerCooldown = StartCoroutine(FindPlayerCooldown_Coroutine());   
-            }   
+            }
+
+            if (!Level1Manager.instance.AlarmActivated)
+            {
+                
+            }
         }
     }
     
@@ -108,10 +113,10 @@ public class Soldier_IA : Enemy_IA
     private IEnumerator FindPlayerCooldown_Coroutine()
     {
         yield return new WaitForSeconds(5f);
-        _navMeshAgent.SetDestination(waypointsList[waypointsListIndex].position);
+        GoActivateAlarm();
+        /*_navMeshAgent.SetDestination(waypointsList[waypointsListIndex].position);
         _navMeshAgent.stoppingDistance = 1f;
-        isPlayerDetected = false;
-        Debug.Log("Player not Found, Going Patroling");
+        isPlayerDetected = false;*/
     }
     
     private void StopFindingPlayer()
@@ -175,7 +180,7 @@ public class Soldier_IA : Enemy_IA
     {
         yield return new WaitForSeconds(30f);
         searchingInRoom = false;
-        
+
         Debug.LogWarning("Stop Searching In Room");
     }
     

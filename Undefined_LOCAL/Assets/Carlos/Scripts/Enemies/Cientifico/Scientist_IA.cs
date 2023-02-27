@@ -23,7 +23,7 @@ public class Scientist_IA : Enemy_IA
         if (!isPlayerDetected) return;
         
         //Se comprueba si tiene que huir del Player;
-        if (_enemyScriptStorage.FieldOfView.canSeePlayer && _navMeshAgent.hasPath)
+        if (isPlayerDetected && _navMeshAgent.hasPath)
         {
             RunOfPlayer();
         }
@@ -33,8 +33,7 @@ public class Scientist_IA : Enemy_IA
     private void RunOfPlayer()
     {
         _navMeshAgent.speed = 3f;
-        _navMeshAgent.stoppingDistance = 0.1f;
-        
+
         //Si la alarma está activada irá a la sala segura;
         if (Level1Manager.instance.AlarmActivated)
         {
@@ -45,25 +44,18 @@ public class Scientist_IA : Enemy_IA
         {
             GoActivateAlarm();
         }
+    }
 
+    //Método para ir a la sala segura;
+    private void GoSafeRoom()
+    {
+        Debug.Log("Going Safe Room");
+        _navMeshAgent.SetDestination(Level1Manager.instance.SafeRoomWaypointsList[randomSafeRoomWaypoint].position);
+        
         //Si el NPC llega al waypoint se quedará quieto;
         if (Vector3.Distance(transform.position, _navMeshAgent.destination) < 0.1f)
         {
             _navMeshAgent.ResetPath();
         }
     }
-
-    //Método para ir a la sala segura;
-    private void GoSafeRoom()
-    {
-        _navMeshAgent.SetDestination(Level1Manager.instance.SafeRoomWaypointsList[randomSafeRoomWaypoint].position);
-    }
-
-    //Método para ir a activar la alarma;
-    private void GoActivateAlarm()
-    {
-        
-    }
-    
-    
 }

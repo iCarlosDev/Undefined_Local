@@ -65,6 +65,10 @@ public class Enemy_IA : MonoBehaviour
                 isPlayerDetected = true;
             } 
         }
+        else
+        {
+            _navMeshAgent.stoppingDistance = 0.1f;
+        }
     }
 
     #region - PATH WITH WAYPOINTS -
@@ -83,6 +87,26 @@ public class Enemy_IA : MonoBehaviour
     {
         waypointsListIndex = (waypointsListIndex + 1) % waypointsList.Count;
         _navMeshAgent.SetDestination(waypointsList[waypointsListIndex].position);
+    }
+    
+    #endregion
+
+    #region - ACTIVATE ALARM -
+    
+    //Método para ir a activar la alarma;
+    public void GoActivateAlarm()
+    {
+        if (Level1Manager.instance.AlarmActivated) return;
+        
+        Debug.Log("Going Activate Alarm");
+        Debug.Log(Vector3.Distance(transform.position, Level1Manager.instance.AlarmWaypoint.position));
+        _navMeshAgent.SetDestination(Level1Manager.instance.AlarmWaypoint.position);
+        _navMeshAgent.speed = 3f;
+
+        if (Vector3.Distance(transform.position, Level1Manager.instance.AlarmWaypoint.position) < 0.1f)
+        {
+            Level1Manager.instance.AlarmActivated = true;
+        }
     }
     
     #endregion

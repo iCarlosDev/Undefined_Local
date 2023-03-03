@@ -14,6 +14,6 @@ public class EnemyScriptStorage : MonoBehaviour
 
     private void Awake()
     {
-        _fieldOfView = GetComponent<FieldOfView>();
+        _fieldOfView = GetComponentInChildren<FieldOfView>();
     }
 }

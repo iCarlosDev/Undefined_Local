@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Scientist_IA : Enemy_IA
 {
-    
+    [SerializeField] private bool went1stSafeRoom;
     [SerializeField] private int randomSafeRoomWaypoint;
-    
+
     public override void Start()
     {
         base.Start();
@@ -23,7 +23,7 @@ public class Scientist_IA : Enemy_IA
         if (!isPlayerDetected) return;
         
         //Se comprueba si tiene que huir del Player;
-        if (isPlayerDetected && _navMeshAgent.hasPath)
+        if (isPlayerDetected)
         {
             RunOfPlayer();
         }
@@ -37,7 +37,7 @@ public class Scientist_IA : Enemy_IA
         //Si la alarma está activada irá a la sala segura;
         if (Level1Manager.instance.AlarmActivated)
         {
-            GoSafeRoom();
+            SearchSafeRoom();
         }
         //Si la alarma no está activada irá a activarla;
         else
@@ -47,15 +47,33 @@ public class Scientist_IA : Enemy_IA
     }
 
     //Método para ir a la sala segura;
-    private void GoSafeRoom()
+    private void GoSafeRoom(int room, int waypoint)
     {
         Debug.Log("Going Safe Room");
-        _navMeshAgent.SetDestination(Level1Manager.instance.SafeRoomWaypointsList[randomSafeRoomWaypoint].position);
-        
+
+        if (!went1stSafeRoom)
+        {
+            _navMeshAgent.SetDestination(Level1Manager.instance.SafeRoomWaypointsList[randomSafeRoomWaypoint].position);
+            went1stSafeRoom = true;
+        }
+
+        if (_enemyScriptStorage.FieldOfView.canSeePlayer && went1stSafeRoom)
+        {
+            _navMeshAgent.SetDestination(Level1Manager.instance.RoomsList[room].transform.GetChild(waypoint).position);
+        }
+
         //Si el NPC llega al waypoint se quedará quieto;
         if (Vector3.Distance(transform.position, _navMeshAgent.destination) < 0.1f)
         {
             _navMeshAgent.ResetPath();
         }
+    }
+
+    private void SearchSafeRoom()
+    {
+        int RandomRoom = Random.Range(1, Level1Manager.instance.RoomsList.Count);
+        int RandomRoomWaypoint = Random.Range(1, Level1Manager.instance.RoomsList[RandomRoom].transform.childCount);
+        
+        GoSafeRoom(RandomRoom, RandomRoomWaypoint);
     }
 }

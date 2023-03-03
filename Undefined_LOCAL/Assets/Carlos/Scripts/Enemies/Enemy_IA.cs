@@ -96,16 +96,25 @@ public class Enemy_IA : MonoBehaviour
     //Método para ir a activar la alarma;
     public void GoActivateAlarm()
     {
+        //Si la alarma ya ha sido activada no realizara la lógica restante;
         if (Level1Manager.instance.AlarmActivated) return;
         
         Debug.Log("Going Activate Alarm");
         Debug.Log(Vector3.Distance(transform.position, Level1Manager.instance.AlarmWaypoint.position));
+        
         _navMeshAgent.SetDestination(Level1Manager.instance.AlarmWaypoint.position);
         _navMeshAgent.speed = 3f;
 
+        //Si la distancia del NPC con la Alarma es menor a 0.1m se activará;
         if (Vector3.Distance(transform.position, Level1Manager.instance.AlarmWaypoint.position) < 0.1f)
         {
             Level1Manager.instance.AlarmActivated = true;
+            
+            //Una vez activada la alarma todos los NPCs estarán alerta;
+            foreach (Enemy_IA enemy in FindObjectsOfType<Enemy_IA>())
+            {
+                enemy.isPlayerDetected = true;
+            }
         }
     }
     

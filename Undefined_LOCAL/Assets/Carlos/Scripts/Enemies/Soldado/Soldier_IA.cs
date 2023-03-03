@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using Random = UnityEngine.Random;
 
 public class Soldier_IA : Enemy_IA
 {
@@ -78,7 +79,7 @@ public class Soldier_IA : Enemy_IA
         //Comprobamos que el NPC ha llegado a la última posición donde ha visto al Player;
         if (Vector3.Distance(transform.position, _navMeshAgent.destination) < 0.1f)
         {
-            Debug.Log("<color=red>Finding Player...</color>");
+            Debug.Log("Finding Player...");
             
             //Comprobamos si hay waypoints en la lista y si está buscando en una sala;
             if (roomWaypoints.Count != 0 && searchingInRoom)
@@ -99,21 +100,24 @@ public class Soldier_IA : Enemy_IA
             if (findPlayerCooldown == null)
             {
                 _navMeshAgent.ResetPath();
-                findPlayerCooldown = StartCoroutine(FindPlayerCooldown_Coroutine());   
+                //findPlayerCooldown = StartCoroutine(FindPlayerCooldown_Coroutine());   
             }
 
             if (!Level1Manager.instance.AlarmActivated)
             {
-                
+                GoActivateAlarm();
+            }
+            else
+            {
+                SearchInRooms();
             }
         }
     }
-    
+
     //Corrutina para dejar de buscar al player si se hace el waitForSeconds;
     private IEnumerator FindPlayerCooldown_Coroutine()
     {
         yield return new WaitForSeconds(5f);
-        GoActivateAlarm();
         /*_navMeshAgent.SetDestination(waypointsList[waypointsListIndex].position);
         _navMeshAgent.stoppingDistance = 1f;
         isPlayerDetected = false;*/
@@ -156,8 +160,18 @@ public class Soldier_IA : Enemy_IA
             searchingInRoom = false;
         }
     }
+    
+    //El NPC una vez la alarma esté activada se pondrá a buscar al player en las salas;
+    private void SearchInRooms()
+    {
+        int randomRoom = Random.Range(1, Level1Manager.instance.RoomsList.Count);
+        roomWaypoints.AddRange(Level1Manager.instance.RoomsList[randomRoom].GetComponentsInChildren<Transform>());
+        roomWaypoints.Remove(roomWaypoints[0]);
+        _navMeshAgent.speed = 1f;
+        searchingInRoom = true;
+    }
 
-    //Método para recoger los waypoints que seguirá el NPC cuando esté buscando al player;
+    //Método para recoger los waypoints de la room que seguirá el NPC cuando esté buscando al player;
     private void SetRoomWaypoints(Collider other)
     {
         roomWaypoints = new List<Transform>();

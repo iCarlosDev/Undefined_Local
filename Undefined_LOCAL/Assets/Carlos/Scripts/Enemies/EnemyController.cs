@@ -5,11 +5,13 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    [SerializeField] private CharacterController _characterController;
+    [SerializeField] protected CharacterController _characterController;
 
     [Header("--- MOVEMENT PARAMETERS ---")] 
     [Space(10)] 
-    [SerializeField] private float speed;
+    [SerializeField] protected float currentSpeed;
+    [SerializeField] private float walkSpeed;
+    [SerializeField] private float sprintSpeed;
 
     [Header("--- JUMP PARAMETERS ---")] 
     [Space(10)] 
@@ -25,20 +27,29 @@ public class EnemyController : MonoBehaviour
 
     private Vector3 velocity;
 
-    private void Update()
+    public virtual void Update()
     {
         Movement();
         Jump();
+        
+        if (isGrounded && Input.GetAxis("Vertical") > 0f)
+        {
+            Sprint();   
+        }
+        else
+        {
+            currentSpeed = walkSpeed;
+        }
     }
 
     private void Movement()
     {
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
+        float x = Input.GetAxisRaw("Horizontal");
+        float z = Input.GetAxisRaw("Vertical");
 
         Vector3 move = transform.right * x + transform.forward * z;
 
-        _characterController.Move(move * speed * Time.deltaTime);
+        _characterController.Move(move.normalized * currentSpeed * Time.deltaTime);
     }
 
     private void Jump()
@@ -57,7 +68,21 @@ public class EnemyController : MonoBehaviour
         
         velocity.y += gravity * Time.deltaTime;
 
+        velocity = new Vector3(_characterController.velocity.x, velocity.y, _characterController.velocity.z);
         _characterController.Move(velocity * Time.deltaTime);
+    }
+
+    private void Sprint()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            currentSpeed = sprintSpeed;
+        }
+
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            currentSpeed = walkSpeed;
+        }
     }
     
 }

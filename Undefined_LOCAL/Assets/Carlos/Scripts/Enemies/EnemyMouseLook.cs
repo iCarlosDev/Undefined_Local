@@ -11,6 +11,7 @@ public class EnemyMouseLook : MonoBehaviour
 
     [SerializeField] private Transform enemyFPBody;
     [SerializeField] private float xRotation;
+    [SerializeField] private float maxYRotation;
 
     private void Start()
     {
@@ -29,7 +30,7 @@ public class EnemyMouseLook : MonoBehaviour
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 
         xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        xRotation = Mathf.Clamp(xRotation, -maxYRotation, maxYRotation);
         
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         enemyFPBody.Rotate(Vector3.up * mouseX);

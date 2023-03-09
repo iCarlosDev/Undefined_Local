@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: 13207be4f41759d43af85c4ef97e8fee
+guid: 2799e17129e3578418ed319e7cded564
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Player_monstruo_rig_Cabeza_Monstruo
-    second: {fileID: 2100000, guid: 5fe2855f91ab99842a4786b4b3325a9c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Player_monstruo_rig_Cuerpo_Monstruo
-    second: {fileID: 2100000, guid: c5b66715da24d124aadab4ae3ddfadfe, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -26,8 +16,7 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
     motionNodeName: 
-    rigImportErrors: "Copied Avatar Rig Configuration mis-match. Transform hierarchy
-      does not match:\n\tCannot find root motion transform 'Player_monstruo_rig_fixed:Base_Skeleton'.\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -108,7 +97,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0

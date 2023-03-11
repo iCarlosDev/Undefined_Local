@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyController : MonoBehaviour
@@ -10,7 +7,7 @@ public class EnemyController : MonoBehaviour
     [Header("--- MOVEMENT PARAMETERS ---")] 
     [Space(10)] 
     [SerializeField] protected float currentSpeed;
-    [SerializeField] private float walkSpeed;
+    [SerializeField] protected float walkSpeed;
     [SerializeField] private float sprintSpeed;
 
     [Header("--- JUMP PARAMETERS ---")] 
@@ -31,15 +28,7 @@ public class EnemyController : MonoBehaviour
     {
         Movement();
         Jump();
-        
-        if (isGrounded && Input.GetAxis("Vertical") > 0f)
-        {
-            Sprint();   
-        }
-        else
-        {
-            currentSpeed = walkSpeed;
-        }
+        Sprint();
     }
 
     private void Movement()
@@ -72,17 +61,25 @@ public class EnemyController : MonoBehaviour
         _characterController.Move(velocity * Time.deltaTime);
     }
 
-    private void Sprint()
+    public virtual void Sprint()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (isGrounded && Input.GetAxis("Vertical") > 0f)
         {
-            currentSpeed = sprintSpeed;
-        }
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                currentSpeed = sprintSpeed;
+            }
 
-        if (Input.GetKeyUp(KeyCode.LeftShift))
+            if (Input.GetKeyUp(KeyCode.LeftShift))
+            {
+                currentSpeed = walkSpeed;
+            }   
+        }
+        else
         {
             currentSpeed = walkSpeed;
         }
+        
     }
     
 }

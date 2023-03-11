@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -20,6 +19,19 @@ public class Enemy_IA : MonoBehaviour
     [Header("--- DETECTION ---")]
     [Space(10)]
     [SerializeField] protected bool isPlayerDetected;
+    
+    [Header("--- HEALTH ---")]
+    [Space(10)]
+    [SerializeField] protected int maxHealth;
+    [SerializeField] protected int currentHealth;
+    
+    [Header("--- ANIMATOR ---")]
+    [Space(10)]
+    [SerializeField] protected Animator _animator;
+    
+    [Header("--- FPS ---")]
+    [Space(10)]
+    [SerializeField] protected Transform fps;
 
     private void Awake()
     {
@@ -45,6 +57,7 @@ public class Enemy_IA : MonoBehaviour
     {
         Debug.DrawLine(transform.position, _navMeshAgent.destination, Color.red, 0.1f);
         CheckPlayerDetectedStatus();
+        FPS_PositionControl();
     }
 
     private void CheckPlayerDetectedStatus()
@@ -119,4 +132,36 @@ public class Enemy_IA : MonoBehaviour
     }
     
     #endregion
+
+    //Método parar recibir daño
+    public void TakeDamage(int damage)
+    {
+        //Si el NPC tiene vida se la podremos quitar
+        if (currentHealth > 0)
+        {
+            currentHealth -= damage;
+        
+            //Si la vida llega a 0 muere;
+            if (currentHealth <= 0)
+            {
+                Die();
+            } 
+        }
+    }
+
+    //Método para decidir que hacer cuando el NPC muere;
+    private void Die()
+    {
+        _navMeshAgent.ResetPath();
+        _navMeshAgent.enabled = false;
+        _animator.enabled = false;
+        _enemyScriptStorage.FieldOfView.gameObject.SetActive(false);
+    }
+
+    
+    private void FPS_PositionControl()
+    {
+        fps.position = transform.position;
+        fps.rotation = transform.rotation;
+    }
 }

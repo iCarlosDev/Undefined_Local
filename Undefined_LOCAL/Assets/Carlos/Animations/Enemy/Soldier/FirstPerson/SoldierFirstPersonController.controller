@@ -14,6 +14,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 4
     m_ConditionEvent: CharacterSpeed
     m_EventTreshold: 1.6
+  - m_ConditionMode: 1
+    m_ConditionEvent: StopReload
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3520017712714762249}
   m_Solo: 0
@@ -144,6 +147,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: CharacterSpeed
     m_EventTreshold: 1.6
+  - m_ConditionMode: 1
+    m_ConditionEvent: StopReload
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2092377543260189119}
   m_Solo: 0
@@ -295,6 +301,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: CharacterMovement
     m_EventTreshold: 1
+  - m_ConditionMode: 1
+    m_ConditionEvent: StopReload
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6598618493247417677}
   m_Solo: 0
@@ -326,6 +335,12 @@ AnimatorController:
     m_Controller: {fileID: 0}
   - m_Name: CharacterSpeed
     m_Type: 1
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: StopReload
+    m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0

@@ -116,6 +116,7 @@ public class PlayerMovement : MonoBehaviour
     {
         //Seteamos el bool con una esfera invisible triggered;
         isGrounded = Physics.CheckSphere(groundCheck.position, sphereRadius, groundMask);
+        _animmator.SetBool("IsGrounded", isGrounded);
         
         //si estamos en el suelo y no estamos cayendo el eje "Y" será "-2";
         if (isGrounded && velocity.y < 0)
@@ -128,6 +129,7 @@ public class PlayerMovement : MonoBehaviour
         {
             //igualamos nuestro eje "Y" a los valores de la raíz cuadrada (el resultado debería ser valor positivo);
             velocity.y = Mathf.Sqrt(jumpForce * -2 * gravity);
+            _animmator.SetTrigger("Jump");
         }
       
         //El eje "Y" irá progresivamente a 0;

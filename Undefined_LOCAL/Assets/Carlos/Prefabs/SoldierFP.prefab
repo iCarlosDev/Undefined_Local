@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &743566616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 743566617}
+  m_Layer: 7
+  m_Name: PlayerRef
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &743566617
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743566616}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.097, y: 0.44, z: -1.069}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8711910863609340248}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &52081115163552685
 GameObject:
   m_ObjectHideFlags: 0
@@ -3476,7 +3507,7 @@ GameObject:
   - component: {fileID: 8711910863609340247}
   - component: {fileID: 8711910863609340249}
   - component: {fileID: 8711910863609340244}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: SoldierFP
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -3498,6 +3529,7 @@ Transform:
   - {fileID: 8711910862715535574}
   - {fileID: 8711910862578415511}
   - {fileID: 8711910863800058313}
+  - {fileID: 743566617}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3532,13 +3564,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
+  m_Height: 1.8
   m_Radius: 0.3
   m_SlopeLimit: 45
   m_StepOffset: 0.3
-  m_SkinWidth: 0.08
+  m_SkinWidth: 0.01
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 0.9, z: 0}
 --- !u!114 &8711910863609340244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3568,7 +3600,7 @@ MonoBehaviour:
   crosshair: {fileID: 8711910863195917578}
   cameraPivot: {fileID: 8711910863800058313}
   ammoTMP: {fileID: 8711910863614660034}
-  layerToIgnore:
+  layerToDetect:
     serializedVersion: 2
     m_Bits: 576
   ammoCapacity: 8
@@ -3846,7 +3878,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8711910863800058312}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.704, z: 0}
+  m_LocalPosition: {x: 0, y: 1.591, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

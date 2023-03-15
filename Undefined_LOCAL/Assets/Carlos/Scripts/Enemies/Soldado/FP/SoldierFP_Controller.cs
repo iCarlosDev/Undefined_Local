@@ -20,7 +20,7 @@ public class SoldierFP_Controller : EnemyController
     [Space(10)]
     [SerializeField] private Transform cameraPivot;
     [SerializeField] private TextMeshProUGUI ammoTMP;
-    [SerializeField] private LayerMask layerToIgnore;
+    [SerializeField] private LayerMask layerToDetect;
     [SerializeField] private int ammoCapacity;
     [SerializeField] private int maxAmmo;
     [SerializeField] private int currentAmmo;
@@ -134,11 +134,16 @@ public class SoldierFP_Controller : EnemyController
         RaycastHit hit = new RaycastHit();
         Ray ray = new Ray(cameraPivot.position, cameraPivot.forward);
 
-        if (Physics.Raycast(ray, out hit, 100f, layerToIgnore, QueryTriggerInteraction.Ignore))
+        //Cuando disparamos lanzamos un rayo que da información de con que ha impactado;
+        if (Physics.Raycast(ray, out hit, 100f, layerToDetect, QueryTriggerInteraction.Ignore))
         {
+            //Si impacta con un collider del enemy...;
             if (hit.collider.CompareTag("EnemyCollider"))
             {
-                hit.collider.SendMessage("OnDamage");
+                Debug.Log(hit.collider.name);
+                
+                //Llamamos al método que tendrá el collider con el que impactamos;
+                hit.collider.SendMessage("OnDamage", hit);
             }
         }
 

@@ -1,4 +1,6 @@
+using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -19,6 +21,7 @@ public class Enemy_IA : MonoBehaviour
     [Header("--- DETECTION ---")]
     [Space(10)]
     [SerializeField] protected bool isPlayerDetected;
+    [SerializeField] private bool isSoldier;
     
     [Header("--- HEALTH ---")]
     [Space(10)]
@@ -32,6 +35,15 @@ public class Enemy_IA : MonoBehaviour
     [Header("--- FPS ---")]
     [Space(10)]
     [SerializeField] protected Transform fps;
+
+    private Coroutine detectPlayerByShot;
+
+    [SerializeField] private EnemyType_Enum EnemyType;
+    private enum EnemyType_Enum
+    {
+        Soldier,
+        Scientist
+    }
 
     private void Awake()
     {
@@ -57,7 +69,6 @@ public class Enemy_IA : MonoBehaviour
     {
         Debug.DrawLine(transform.position, _navMeshAgent.destination, Color.red, 0.1f);
         CheckPlayerDetectedStatus();
-        FPS_PositionControl();
     }
 
     private void CheckPlayerDetectedStatus()
@@ -114,9 +125,13 @@ public class Enemy_IA : MonoBehaviour
         
         Debug.Log("Going Activate Alarm");
         Debug.Log(Vector3.Distance(transform.position, Level1Manager.instance.AlarmWaypoint.position));
-        
-        _navMeshAgent.SetDestination(Level1Manager.instance.AlarmWaypoint.position);
-        _navMeshAgent.speed = 3f;
+
+        //Si el componente "NavMeshAgent" está activo...;
+        if (_navMeshAgent.enabled)
+        {
+            _navMeshAgent.SetDestination(Level1Manager.instance.AlarmWaypoint.position);
+            _navMeshAgent.speed = 3f;
+        }
 
         //Si la distancia del NPC con la Alarma es menor a 0.1m se activará;
         if (Vector3.Distance(transform.position, Level1Manager.instance.AlarmWaypoint.position) < 0.1f)
@@ -134,19 +149,34 @@ public class Enemy_IA : MonoBehaviour
     #endregion
 
     //Método parar recibir daño
-    public void TakeDamage(int damage)
+    public void TakeDamage(int damage, RaycastHit hit, Rigidbody rb)
     {
         //Si el NPC tiene vida se la podremos quitar
         if (currentHealth > 0)
         {
             currentHealth -= damage;
-        
+            isPlayerDetected = true;
+
+            if (EnemyType == EnemyType_Enum.Soldier && !_enemyScriptStorage.FieldOfView.canSeePlayer)
+            {
+                if (detectPlayerByShot != null)
+                {
+                    StopCoroutine(detectPlayerByShot);
+                    detectPlayerByShot = null;
+                }
+
+                detectPlayerByShot = StartCoroutine(DetectPlayer());  
+            }
+
             //Si la vida llega a 0 muere;
             if (currentHealth <= 0)
             {
                 Die();
             } 
         }
+        
+        //Añadimos fuerza al collider que es disparado por el player;
+        rb.AddForce(-hit.normal * 100f, ForceMode.Impulse);
     }
 
     //Método para decidir que hacer cuando el NPC muere;
@@ -156,12 +186,21 @@ public class Enemy_IA : MonoBehaviour
         _navMeshAgent.enabled = false;
         _animator.enabled = false;
         _enemyScriptStorage.FieldOfView.gameObject.SetActive(false);
+
+        foreach (Rigidbody rb in GetComponentsInChildren<Rigidbody>())
+        {
+            rb.isKinematic = false;
+        }
     }
 
-    
-    private void FPS_PositionControl()
+    private IEnumerator DetectPlayer()
     {
-        fps.position = transform.position;
-        fps.rotation = transform.rotation;
+        _enemyScriptStorage.FieldOfView.canSeePlayer = true;
+        yield return new WaitForSeconds(3f);
+        
+        if (!_enemyScriptStorage.FieldOfView.canSeePlayer)
+        {
+            _enemyScriptStorage.FieldOfView.canSeePlayer = false; 
+        }
     }
 }

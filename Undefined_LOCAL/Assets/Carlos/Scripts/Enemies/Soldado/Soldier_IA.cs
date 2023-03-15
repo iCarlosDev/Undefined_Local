@@ -41,9 +41,13 @@ public class Soldier_IA : Enemy_IA
     private void ChasePlayer()
     {
         Debug.Log("Chasing Player...");
-        
-        _navMeshAgent.SetDestination(_enemyScriptStorage.FieldOfView.playerRef.transform.position);
-        _navMeshAgent.stoppingDistance = 4;
+
+        //Si el componente "NavMeshAgent" está activo...;
+        if (_navMeshAgent.enabled)
+        {
+            _navMeshAgent.SetDestination(_enemyScriptStorage.FieldOfView.playerRef.transform.position);
+            _navMeshAgent.stoppingDistance = 4;
+        }
 
         //Depende de la distancia entre el NPC y el Player el NPC disparará o Pateará;
         if (Vector3.Distance(transform.position, _enemyScriptStorage.FieldOfView.playerRef.transform.position) < 0.8f)

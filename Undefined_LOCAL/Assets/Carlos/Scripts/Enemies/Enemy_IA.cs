@@ -45,6 +45,14 @@ public class Enemy_IA : MonoBehaviour
         Scientist
     }
 
+    [SerializeField] private bool canBePossessed;
+    
+    //GETTERS && SETTERS//
+    public bool CanBePossessed => canBePossessed;
+    public EnemyScriptStorage EnemyScriptStorage => _enemyScriptStorage;
+    
+    //////////////////////////////////////////////////////////////////// 
+
     private void Awake()
     {
         _enemyScriptStorage = GetComponent<EnemyScriptStorage>();

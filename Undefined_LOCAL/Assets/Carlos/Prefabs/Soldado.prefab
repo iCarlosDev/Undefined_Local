@@ -1896,14 +1896,15 @@ MonoBehaviour:
   waypointStorage: {fileID: 0}
   waypointsList: []
   waypointsListIndex: 0
+  playerRef: {fileID: 0}
   isPlayerDetected: 0
-  isSoldier: 0
   maxHealth: 100
   currentHealth: 100
   _animator: {fileID: 4559934169586597651}
   fps: {fileID: 0}
   EnemyType: 0
   canBePossessed: 1
+  dumping: 3
   roomWaypoints: []
   indexRoomWaypoints: 0
   searchingInRoom: 0

@@ -23,6 +23,11 @@ public class EnemyPossess : MonoBehaviour
         StartCoroutine(GetClosestEnemyRoutine());
     }
 
+    private void OnEnable()
+    {
+        StartCoroutine(GetClosestEnemyRoutine());
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.F) && canPossess && !haveCooldown)
@@ -36,9 +41,21 @@ public class EnemyPossess : MonoBehaviour
         enemyFP.transform.position = closestEnemy.transform.position;
         enemyFP.transform.rotation = closestEnemy.transform.rotation;
         enemyFP.SetActive(true);
+        enemyFP.GetComponent<EnemyDespossess>().StartUp(closestEnemy, gameObject);
+        closestEnemy.EnemyScriptStorage.Outlinable.enabled = false;
         closestEnemy.gameObject.SetActive(false);
         closestEnemy = null;
-        
+        enemiesInRangeList.Clear();
+
+        canPossess = false;
+
+        //Recorremos todos los enemigos en escena y cambiamos el player de referencia que tienen;
+        foreach (Enemy_IA enemy in Level1Manager.instance.EnemiesList)
+        {
+            //Igualamos el player de referencia al EnemyFP;
+            enemy.PlayerRef = enemyFP.transform;
+        }
+
         gameObject.SetActive(false);
     }
     
@@ -116,6 +133,11 @@ public class EnemyPossess : MonoBehaviour
                 {
                     return;
                 }
+            }
+
+            if (!other.GetComponent<Enemy_IA>().CanBePossessed)
+            {
+               return; 
             }
             
             enemiesInRangeList.Add(other.GetComponent<Enemy_IA>());

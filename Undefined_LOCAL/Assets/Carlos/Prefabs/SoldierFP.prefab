@@ -23,8 +23,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 743566616}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.097, y: 0.44, z: -1.069}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3507,9 +3507,10 @@ GameObject:
   - component: {fileID: 8711910863609340247}
   - component: {fileID: 8711910863609340249}
   - component: {fileID: 8711910863609340244}
-  m_Layer: 0
+  - component: {fileID: 1086703862}
+  m_Layer: 7
   m_Name: SoldierFP
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3617,6 +3618,18 @@ MonoBehaviour:
   roughnes: 3
   fadeIn: 0.1
   fadeOut: 1
+--- !u!114 &1086703862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8711910863609340251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fed3369e58680e4cb60edeab160882f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8711910863614660036
 GameObject:
   m_ObjectHideFlags: 0

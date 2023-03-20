@@ -9,7 +9,11 @@ public class Level1Manager : MonoBehaviour
     [Header("--- ALL ROOMS ---")]
     [Space(10)]
     [SerializeField] private List<GameObject> roomsList;
-    
+
+    [Header("--- ALL ENEMIES ---")] 
+    [Space(10)] 
+    [SerializeField] private List<Enemy_IA> enemiesList;
+
     [Header("--- SAFE ROOM ---")]
     [Space(10)]
     [SerializeField] private List<Transform> safeRoomWaypointsList; 
@@ -26,6 +30,7 @@ public class Level1Manager : MonoBehaviour
         set => alarmActivated = value;
     }
     public List<GameObject> RoomsList => roomsList;
+    public List<Enemy_IA> EnemiesList => enemiesList;
     public List<Transform> SafeRoomWaypointsList => safeRoomWaypointsList;
     public Transform AlarmWaypoint => alarmWaypoint;
 
@@ -43,6 +48,8 @@ public class Level1Manager : MonoBehaviour
         
         roomsList.AddRange(GameObject.FindGameObjectsWithTag("RoomCollider"));
         roomsList.Add(GameObject.FindWithTag("SafeRoomCollider"));
+        
+        enemiesList.AddRange(FindObjectsOfType<Enemy_IA>());
 
         safeRoomWaypointsList.AddRange(GameObject.FindWithTag("SafeRoomCollider").GetComponentsInChildren<Transform>());
         safeRoomWaypointsList.Remove(safeRoomWaypointsList[0]);

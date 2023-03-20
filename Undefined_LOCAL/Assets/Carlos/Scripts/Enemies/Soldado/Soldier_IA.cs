@@ -9,6 +9,10 @@ public class Soldier_IA : Enemy_IA
 {
     private Coroutine findPlayerCooldown;
     private Coroutine findInRoomCooldown;
+
+    [Header("--- LOOK PLAYER PARAMETERS ---")] 
+    [Space(10)] 
+    [SerializeField] private float dumping;
     
     [Header("--- ROOM WAYPOINTS ---")]
     [Space(10)]
@@ -35,6 +39,11 @@ public class Soldier_IA : Enemy_IA
         }
     }
 
+    private void ChangePlayerRef(Transform playerRef)
+    {
+        base.playerRef = playerRef;
+    }
+
     #region - PLAYER DETECTED -
 
     //Método para seguir y disparar al player;
@@ -45,12 +54,13 @@ public class Soldier_IA : Enemy_IA
         //Si el componente "NavMeshAgent" está activo...;
         if (_navMeshAgent.enabled)
         {
-            _navMeshAgent.SetDestination(_enemyScriptStorage.FieldOfView.playerRef.transform.position);
+            _navMeshAgent.SetDestination(playerRef.position);
             _navMeshAgent.stoppingDistance = 4;
+            lookPlayer();
         }
 
         //Depende de la distancia entre el NPC y el Player el NPC disparará o Pateará;
-        if (Vector3.Distance(transform.position, _enemyScriptStorage.FieldOfView.playerRef.transform.position) < 0.8f)
+        if (Vector3.Distance(transform.position, playerRef.position) < 0.8f)
         {
             Kick();
         }
@@ -58,6 +68,18 @@ public class Soldier_IA : Enemy_IA
         {
             Shoot(); 
         }
+    }
+
+    //Método para rotar al NPC para que mire al player en el eje "Y";
+    private void lookPlayer()
+    {
+        //Asignamos la distancia entre el player y el NPC a la variable local;
+        var lookPos = playerRef.position - transform.position;
+        lookPos.y = 0;
+        //Asignamos la creación de la rotación del NPC en el eje "Y" a la variable local;
+        var rotation = Quaternion.LookRotation(lookPos);
+        //Rotamos el NPC con smooth;
+        transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * dumping);
     }
 
     private void Shoot()

@@ -20,9 +20,9 @@ public class Enemy_IA : MonoBehaviour
     
     [Header("--- DETECTION ---")]
     [Space(10)]
+    [SerializeField] protected Transform playerRef;
     [SerializeField] protected bool isPlayerDetected;
-    [SerializeField] private bool isSoldier;
-    
+
     [Header("--- HEALTH ---")]
     [Space(10)]
     [SerializeField] protected int maxHealth;
@@ -49,6 +49,11 @@ public class Enemy_IA : MonoBehaviour
     
     //GETTERS && SETTERS//
     public bool CanBePossessed => canBePossessed;
+    public Transform PlayerRef
+    {
+        get => playerRef;
+        set => playerRef = value;
+    }
     public EnemyScriptStorage EnemyScriptStorage => _enemyScriptStorage;
     
     //////////////////////////////////////////////////////////////////// 
@@ -62,6 +67,8 @@ public class Enemy_IA : MonoBehaviour
         waypointsList.AddRange(waypointStorage.GetComponentsInChildren<Transform>());
         waypointsList.Remove(waypointsList[0]);
         waypointsListIndex = 0;
+
+        playerRef = _enemyScriptStorage.FieldOfView.playerRef.transform;
     }
 
     public virtual void Start()
@@ -188,12 +195,13 @@ public class Enemy_IA : MonoBehaviour
     }
 
     //Método para decidir que hacer cuando el NPC muere;
-    private void Die()
+    public void Die()
     {
         _navMeshAgent.ResetPath();
         _navMeshAgent.enabled = false;
         _animator.enabled = false;
         _enemyScriptStorage.FieldOfView.gameObject.SetActive(false);
+        canBePossessed = false;
 
         foreach (Rigidbody rb in GetComponentsInChildren<Rigidbody>())
         {

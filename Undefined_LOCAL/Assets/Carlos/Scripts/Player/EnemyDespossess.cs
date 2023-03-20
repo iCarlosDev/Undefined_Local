@@ -1,10 +1,16 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class EnemyDespossess : MonoBehaviour
 {
     [SerializeField] private GameObject player;
     [SerializeField] private Enemy_IA enemy;
+
+    [Header("--- POSSESSION COOLDOWN ---")]
+    [Space(10)]
+    [SerializeField] private float possessionTime;
+    private Coroutine possessionCooldown;
 
     private void Update()
     {
@@ -14,22 +20,44 @@ public class EnemyDespossess : MonoBehaviour
         }
     }
 
+    //Método para setear parametros necesarios cada vez que se active este objeto;
     public void StartUp(Enemy_IA enemy, GameObject player)
     {
         this.enemy = enemy;
         this.player = player;
+
+        if (possessionCooldown != null)
+        {
+            StopCoroutine(possessionCooldown);
+            possessionCooldown = null;
+        }
+        
+        possessionCooldown = StartCoroutine(PossessionCooldown_Coroutine());
     }
 
+    //Corrutina para desposeer al NPC cuando se agote el tiempo de posesión;
+    private IEnumerator PossessionCooldown_Coroutine()
+    {
+        yield return new WaitForSeconds(possessionTime);
+        Despossess();
+    }
+    
+    //Método para desposeer al NPC;
     private void Despossess()
     {
+        //Hacemos que el player y el enemigo q hemos poseido aparezcan en la posición y rotación en la q estemos;
         player.transform.position = transform.position;
         player.transform.rotation = transform.rotation;
         enemy.transform.position = transform.position;
         enemy.transform.rotation = transform.rotation;
+        
+        //Activamos el NPC poseido;
         enemy.gameObject.SetActive(true);
         
+        //Matamos al NPC poseido;
         enemy.Die();
         
+        //Activamos al player;
         player.SetActive(true);
 
         //Recorremos todos los enemigos en escena y cambiamos el player de referencia que tienen;
@@ -39,6 +67,7 @@ public class EnemyDespossess : MonoBehaviour
             enemy.PlayerRef = player.transform;
         }
 
+        //Desactivamos el EnemyFP;
         gameObject.SetActive(false);
     }
 }

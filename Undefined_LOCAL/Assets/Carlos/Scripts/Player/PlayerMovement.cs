@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -25,6 +26,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float sphereRadius;
     [SerializeField] private float gravity;
     [SerializeField] private float jumpForce;
+    
+    [Header("--- IDLE_2 PARAMETERS ---")] 
+    [Space(10)] 
+    [SerializeField] private float timeInIdle;
     
     [Header("--- ANIMATOR ---")] 
     [Space(10)] 
@@ -90,9 +95,11 @@ public class PlayerMovement : MonoBehaviour
             _characterController.Move(moveDir.normalized * speed * Time.deltaTime);
             
             _animmator.SetBool("IsWalking", true);
+            timeInIdle = 0f;
         }
         else
         {
+            MakeIdle2();
             _animmator.SetBool("IsWalking", false);
         }
     }
@@ -137,5 +144,20 @@ public class PlayerMovement : MonoBehaviour
         
         //Movemos al personaje en el eje "Y" cada vez que saltemos;
         _characterController.Move(velocity * Time.deltaTime);
+    }
+
+    private void MakeIdle2()
+    {
+        timeInIdle += Time.deltaTime;
+        
+        if (timeInIdle >= 10f)
+        {
+            if (Random.value > 0.7f)
+            {
+                _animmator.SetTrigger("Idle2");
+            }
+            
+            timeInIdle = 0f;
+        }
     }
 }

@@ -3586,8 +3586,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _characterController: {fileID: 8711910863609340249}
   currentSpeed: 0
-  walkSpeed: 1.5
-  sprintSpeed: 3.5
+  walkSpeed: 1
+  sprintSpeed: 2.5
   gravity: -9.81
   jumpHeight: 1.5
   groundMask:
@@ -3630,6 +3630,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fed3369e58680e4cb60edeab160882f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  enemy: {fileID: 0}
+  possessionTime: 30
 --- !u!1 &8711910863614660036
 GameObject:
   m_ObjectHideFlags: 0

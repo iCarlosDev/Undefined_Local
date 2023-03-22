@@ -41,7 +41,7 @@ public class EnemyPossess : MonoBehaviour
         enemyFP.transform.position = closestEnemy.transform.position;
         enemyFP.transform.rotation = closestEnemy.transform.rotation;
         enemyFP.SetActive(true);
-        enemyFP.GetComponent<EnemyDespossess>().StartUp(closestEnemy, gameObject);
+        enemyFP.GetComponent<EnemyDespossess>()?.StartUp(closestEnemy, gameObject);
         closestEnemy.EnemyScriptStorage.Outlinable.enabled = false;
         closestEnemy.gameObject.SetActive(false);
         closestEnemy = null;

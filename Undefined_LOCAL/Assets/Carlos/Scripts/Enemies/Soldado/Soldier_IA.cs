@@ -85,11 +85,13 @@ public class Soldier_IA : Enemy_IA
     private void Shoot()
     {
         Debug.Log("Shooting...");
+        
     }
 
     private void Kick()
     {
         Debug.Log("Kicking...");
+        
     }
 
     #endregion

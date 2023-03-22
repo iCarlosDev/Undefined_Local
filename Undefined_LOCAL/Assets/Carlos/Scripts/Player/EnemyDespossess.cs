@@ -50,6 +50,8 @@ public class EnemyDespossess : MonoBehaviour
         player.transform.rotation = transform.rotation;
         enemy.transform.position = transform.position;
         enemy.transform.rotation = transform.rotation;
+
+        enemy.GetComponent<CapsuleCollider>().enabled = false;
         
         //Activamos el NPC poseido;
         enemy.gameObject.SetActive(true);
@@ -64,7 +66,7 @@ public class EnemyDespossess : MonoBehaviour
         foreach (Enemy_IA enemy in Level1Manager.instance.EnemiesList)
         {
             //Igualamos el player de referencia al EnemyFP;
-            enemy.PlayerRef = player.transform;
+            enemy.PlayerRef = player.transform.GetChild(5);
         }
 
         //Desactivamos el EnemyFP;

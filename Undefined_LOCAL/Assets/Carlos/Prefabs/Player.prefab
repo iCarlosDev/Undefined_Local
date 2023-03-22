@@ -29,7 +29,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4739761223766339015}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &252388248
 GameObject:
@@ -65,7 +65,7 @@ Transform:
   - {fileID: 1793986765}
   - {fileID: 335664798}
   m_Father: {fileID: 4739761223766339015}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &252388249
 MonoBehaviour:
@@ -232,7 +232,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 335664796}
-  m_LocalRotation: {x: -0.016334843, y: 0.010436056, z: 0.0001705034, w: 0.9998121}
+  m_LocalRotation: {x: -0.016334843, y: 0.010436091, z: 0.00017050395, w: 0.9998121}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -322,7 +322,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4739761223766339015}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &720079067
 GameObject:
@@ -687,7 +687,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793986763}
-  m_LocalRotation: {x: -0.03913119, y: 0.010429455, z: 0.00040845203, w: 0.9991796}
+  m_LocalRotation: {x: -0.03913119, y: 0.010429489, z: 0.0004084534, w: 0.9991796}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -875,7 +875,7 @@ MonoBehaviour:
   m_BiasX: 0
   m_BiasY: 0
   m_CenterOnActivate: 1
---- !u!1 &164363309145370130
+--- !u!1 &258348717088861903
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -883,93 +883,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2462460220764301533}
+  - component: {fileID: 8511061484860307271}
   m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_PV_Leg_Top_CTRL
+  m_Name: Player_monstruo_rig_fixed:R_Claw_Mid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2462460220764301533
+--- !u!4 &8511061484860307271
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164363309145370130}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 2.6645352e-17, z: -8.881784e-18}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3798065825342577771}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &259154817863903213
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5709451522463846845}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_PV_Leg_Middle_CTRL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5709451522463846845
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 259154817863903213}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -3.5527136e-17, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 870789367624394926}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &263494774030580356
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7449858192420556629}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:Master_CTRL_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7449858192420556629
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 263494774030580356}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.019428022, y: -0.013708368, z: 0.05259461}
+  m_GameObject: {fileID: 258348717088861903}
+  m_LocalRotation: {x: -0.122747906, y: -0.19480336, z: 0.021471314, w: 0.9728945}
+  m_LocalPosition: {x: 0.013199633, y: 0.00000008829108, z: 0.00000022621455}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1085404027102181723}
-  m_Father: {fileID: 4739761223766339015}
+  - {fileID: 490844742952139360}
+  m_Father: {fileID: 3047070916966350369}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &275505580546883157
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &330366825342971391
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -977,7 +915,585 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6419873898245192637}
+  - component: {fileID: 192012626395282512}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:IKH_R_Leg_Middle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &192012626395282512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330366825342971391}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.218943, y: 0.1735661, z: 0.027806}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 170443862174929315}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &357075457591177943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5914398405058509616}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:Monster_LP_GRP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5914398405058509616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357075457591177943}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.11611988, z: 0.04889896}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7934672870618843047}
+  - {fileID: 3038682660898123256}
+  m_Father: {fileID: 4739761223766339015}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &639349311864302825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2283664871994106449}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:R_Leg_Middle_Top
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2283664871994106449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639349311864302825}
+  m_LocalRotation: {x: -0.00069049397, y: 0.8664971, z: 0.000736128, w: 0.49918112}
+  m_LocalPosition: {x: 0.10309615, y: -8.881784e-18, z: -7.9936054e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6782606049619555451}
+  m_Father: {fileID: 615688023794320433}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &680282046123058605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6463030452374424561}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:L_Claw_End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6463030452374424561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680282046123058605}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.15241227, y: -0.0046303724, z: -0.0010143755}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 963722054351723041}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &777715420406741074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4801395817883303463}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:R_Leg_Bottom_Middle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4801395817883303463
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777715420406741074}
+  m_LocalRotation: {x: 0.015912475, y: -0.54262984, z: -0.003294543, w: 0.8398147}
+  m_LocalPosition: {x: 0.042317547, y: 0.0042603347, z: 0.0002652478}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4545418430584343545}
+  m_Father: {fileID: 3675804630211716568}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &780655464421866602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5634196721099322867}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:R_Leg_Middle_Bottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5634196721099322867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780655464421866602}
+  m_LocalRotation: {x: 0.66261435, y: -0.6402799, z: -0.27702478, w: -0.2724724}
+  m_LocalPosition: {x: 0.017806, y: -0.010062999, z: -0.101195}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 615688023794320433}
+  m_Father: {fileID: 996184569709084626}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &942376424102719333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3125630422051799651}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:IKH_L_Leg_Middle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3125630422051799651
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942376424102719333}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.2163542, y: 0.17266724, z: 0.031513024}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 170443862174929315}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1019179522669478443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6606295719410354792}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:R_Leg_Top_Middle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6606295719410354792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019179522669478443}
+  m_LocalRotation: {x: -0.021244777, y: -0.6154575, z: 0.0436268, w: 0.786675}
+  m_LocalPosition: {x: 0.04340148, y: 0.0000002904881, z: -0.00000022125973}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5658574316680882414}
+  m_Father: {fileID: 8249850517446669628}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1133771317087188017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3469064480317920406}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:IKH_R_Leg_Bottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3469064480317920406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133771317087188017}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.17555599, y: 0.18378401, z: -0.12913299}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 170443862174929315}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1329066249518043261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4501978482820578242}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:Base_Skeleton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4501978482820578242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329066249518043261}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0.17622934, z: 0.12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2795148553200436540}
+  m_Father: {fileID: 7530138752736254893}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1383038513697766711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1590649238745383574}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:L_Leg_Middle_End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1590649238745383574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383038513697766711}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.18561848, y: 1.6698625e-16, z: 3.929781e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 772781938033380719}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1421325572936199366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8207082557703887320}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:Neck_Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8207082557703887320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421325572936199366}
+  m_LocalRotation: {x: -0.38268346, y: 0.92387956, z: -8.0003916e-17, w: -3.3138708e-17}
+  m_LocalPosition: {x: -0.02, y: 0.12, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5041093579668139737}
+  m_Father: {fileID: 2795148553200436540}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1478661043109055227
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 963722054351723041}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:L_Claw_Top
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &963722054351723041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478661043109055227}
+  m_LocalRotation: {x: 0.12999873, y: 0.86013114, z: 0.03485644, w: 0.4919957}
+  m_LocalPosition: {x: -0.0791301, y: 0.0079072835, z: 0.000022064305}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6463030452374424561}
+  m_Father: {fileID: 2398352927366214258}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1484072804615365487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 170443862174929315}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:IKH_GRP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &170443862174929315
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484072804615365487}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2031725200200016226}
+  - {fileID: 2697009302096133333}
+  - {fileID: 3125630422051799651}
+  - {fileID: 7491580670259406890}
+  - {fileID: 1667605251514880786}
+  - {fileID: 3469064480317920406}
+  - {fileID: 192012626395282512}
+  - {fileID: 3013862147714877041}
+  m_Father: {fileID: 5952749087680716311}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1551789115834063682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2398352927366214258}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:L_Claw_Mid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2398352927366214258
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551789115834063682}
+  m_LocalRotation: {x: -0.11978759, y: -0.21087816, z: 0.017882055, w: 0.96998024}
+  m_LocalPosition: {x: -0.013200041, y: 6.8835406e-19, z: -4.596332e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 963722054351723041}
+  m_Father: {fileID: 6776540598536284509}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2004771073366016446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8249850517446669628}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:R_Leg_Top_Bottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8249850517446669628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004771073366016446}
+  m_LocalRotation: {x: -0.63681316, y: 0.58179855, z: -0.074983455, w: 0.5003568}
+  m_LocalPosition: {x: 0.014043, y: 0.004137, z: -0.060605995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6606295719410354792}
+  m_Father: {fileID: 2795148553200436540}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2239912272361481571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 490844742952139360}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:R_Claw_Top
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &490844742952139360
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2239912272361481571}
+  m_LocalRotation: {x: 0.09720814, y: 0.862958, z: -0.01315067, w: 0.49566227}
+  m_LocalPosition: {x: 0.07913034, y: -0.00790729, z: -0.000021717953}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1954921889330084519}
+  m_Father: {fileID: 8511061484860307271}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2260987275960429278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3847696961622160538}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:R_Leg_Top_End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3847696961622160538
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2260987275960429278}
+  m_LocalRotation: {x: -0.02467775, y: -0.0006419926, z: -0.021898754, w: 0.9994554}
+  m_LocalPosition: {x: 0.18103154, y: 0.0000008039537, z: -0.00000041363066}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5658574316680882414}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2359688329433631678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 794325775809228815}
   m_Layer: 0
   m_Name: Player_monstruo_rig_fixed:R_Leg_Bottom_End
   m_TagString: Untagged
@@ -985,22 +1501,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6419873898245192637
+--- !u!4 &794325775809228815
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 275505580546883157}
+  m_GameObject: {fileID: 2359688329433631678}
   m_LocalRotation: {x: -0.0118460525, y: -0.014412848, z: 0.021241568, w: 0.9996003}
   m_LocalPosition: {x: 0.1858737, y: 0.007966524, z: 0.0052691507}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 652982752858473536}
+  m_Father: {fileID: 4545418430584343545}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -1.3219498, y: -1.6804531, z: 2.4540994}
---- !u!1 &380458156133754837
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2411520760702089236
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1008,125 +1524,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4330922464874923840}
+  - component: {fileID: 3863421969573176398}
   m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Top_Middle
+  m_Name: Player_monstruo_rig_fixed:L_Leg_Top_Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4330922464874923840
+--- !u!4 &3863421969573176398
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 380458156133754837}
-  m_LocalRotation: {x: -0.01631527, y: -0.6140696, z: 0.036942944, w: 0.78821796}
-  m_LocalPosition: {x: -0.04340176, y: 2.305029e-18, z: -6.1786384e-18}
+  m_GameObject: {fileID: 2411520760702089236}
+  m_LocalRotation: {x: 0.5344038, y: 0.69523513, z: -0.47891417, w: -0.041254364}
+  m_LocalPosition: {x: 0.014042933, y: 0.0041370355, z: 0.060605988}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5397203766906421822}
-  m_Father: {fileID: 7949207073203578417}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.013557658, y: -47.91552, z: 2.3015103}
---- !u!1 &420133058868985218
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8165652094721955346}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Leg_Claw_CTRL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8165652094721955346
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 420133058868985218}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2081819396861331580}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -33.735447, z: 0}
---- !u!1 &471015453787169356
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 904286029019184426}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Leg_Middle_End
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &904286029019184426
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 471015453787169356}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1856185, y: 0, z: 0.00000083780327}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2834297552865545403}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &594276564494290463
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4765898727330973649}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Claw_CTRL_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4765898727330973649
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 594276564494290463}
-  m_LocalRotation: {x: 0.7079595, y: 0.70572525, z: -0.019273957, w: 0.019334972}
-  m_LocalPosition: {x: -0.02901013, y: 0.064986244, z: 0.13983992}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4920904165396472828}
-  m_Father: {fileID: 3685669397534814631}
+  - {fileID: 4681081645055831472}
+  m_Father: {fileID: 2795148553200436540}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 3.1288147, y: -180, z: 90.1811}
---- !u!1 &706879442616070064
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2716508174059888063
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1134,7 +1556,101 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2739135121562448525}
+  - component: {fileID: 2697009302096133333}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:IKH_L_Leg_Bottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2697009302096133333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2716508174059888063}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.1690241, y: 0.17713344, z: -0.12913257}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 170443862174929315}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3039810907869863081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 615688023794320433}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:R_Leg_Middle_Middle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &615688023794320433
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3039810907869863081}
+  m_LocalRotation: {x: 9.261344e-19, y: -0.6018679, z: -6.7494145e-18, w: 0.79859567}
+  m_LocalPosition: {x: 0.03942548, y: 0, z: 0.00000029344068}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2283664871994106449}
+  m_Father: {fileID: 5634196721099322867}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3106288210290407750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 663366244509670924}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &663366244509670924
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3106288210290407750}
+  m_LocalRotation: {x: -0.07088897, y: 0.9974842, z: -6.541899e-17, w: -5.6737595e-17}
+  m_LocalPosition: {x: -0.070710674, y: -3.330669e-18, z: -5.195736e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5041093579668139737}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3241596978210482344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5658574316680882414}
   m_Layer: 0
   m_Name: Player_monstruo_rig_fixed:R_Leg_Top_Top
   m_TagString: Untagged
@@ -1142,23 +1658,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2739135121562448525
+--- !u!4 &5658574316680882414
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 706879442616070064}
+  m_GameObject: {fileID: 3241596978210482344}
   m_LocalRotation: {x: -0.016340427, y: 0.8218259, z: 0.00057174364, w: 0.56950414}
   m_LocalPosition: {x: 0.10661569, y: -0.000000531588, z: -0.000000609162}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7260738032835525512}
-  m_Father: {fileID: 7941813187162273075}
+  - {fileID: 3847696961622160538}
+  m_Father: {fileID: 6606295719410354792}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -3.8658655, y: 87.69967, z: 4.394819}
---- !u!1 &1048805063184595393
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3441201865795233789
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1166,68 +1682,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1663268754165496640}
+  - component: {fileID: 3038682660898123256}
+  - component: {fileID: 7515611848509345491}
   m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:Head_CTRL
+  m_Name: Player_monstruo_rig_fixed:Head_LP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1663268754165496640
+--- !u!4 &3038682660898123256
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048805063184595393}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.2521381, y: 0.0018950326, z: -0.015045295}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1178713774265650809}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -13.001688}
---- !u!1 &1134879937846450573
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4765960694876289579}
-  - component: {fileID: 2692900517758175993}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:Body_LP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4765960694876289579
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1134879937846450573}
+  m_GameObject: {fileID: 3441201865795233789}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: -0.22711988, z: -0.04889896}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4897934328437298693}
-  m_RootOrder: 0
+  m_Father: {fileID: 5914398405058509616}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &2692900517758175993
+--- !u!137 &7515611848509345491
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1134879937846450573}
+  m_GameObject: {fileID: 3441201865795233789}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -1241,7 +1726,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c5b66715da24d124aadab4ae3ddfadfe, type: 2}
+  - {fileID: 6824960422789997340, guid: c36361b5d21df324ab2c3db2c259c7bf, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1266,55 +1751,24 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 6126933956043511182, guid: c36361b5d21df324ab2c3db2c259c7bf, type: 3}
+  m_Mesh: {fileID: 5611566693992783526, guid: c36361b5d21df324ab2c3db2c259c7bf, type: 3}
   m_Bones:
-  - {fileID: 4462568166856895039}
-  - {fileID: 7977932526981839255}
-  - {fileID: 4669748768494285206}
-  - {fileID: 3704509840830782164}
-  - {fileID: 5648532530367849218}
-  - {fileID: 7813966970187623161}
-  - {fileID: 7872524608272606280}
-  - {fileID: 8546117196977311451}
-  - {fileID: 8897615505584327809}
-  - {fileID: 9098345538723994010}
-  - {fileID: 2694663045813731853}
-  - {fileID: 652982752858473536}
-  - {fileID: 6419873898245192637}
-  - {fileID: 6944985867260113341}
-  - {fileID: 8401751306578738080}
-  - {fileID: 2613144881801853378}
-  - {fileID: 3197416050368646546}
-  - {fileID: 7317104853153083117}
-  - {fileID: 4644993735912164438}
-  - {fileID: 2834297552865545403}
-  - {fileID: 904286029019184426}
-  - {fileID: 5986091940377273886}
-  - {fileID: 4746059129751285640}
-  - {fileID: 5983644266188507016}
-  - {fileID: 2189000616391109921}
-  - {fileID: 7941813187162273075}
-  - {fileID: 2739135121562448525}
-  - {fileID: 7260738032835525512}
-  - {fileID: 7949207073203578417}
-  - {fileID: 4330922464874923840}
-  - {fileID: 5397203766906421822}
-  - {fileID: 7789395197442232629}
-  - {fileID: 8237037585672368040}
-  - {fileID: 4024333521503404343}
-  - {fileID: 4138390244812458576}
-  - {fileID: 5065800784501066794}
-  - {fileID: 7883802386418527608}
-  - {fileID: 1923762903022099924}
-  - {fileID: 9198358420377035715}
-  - {fileID: 3829142610191263105}
+  - {fileID: 4501978482820578242}
+  - {fileID: 2795148553200436540}
+  - {fileID: 8207082557703887320}
+  - {fileID: 5041093579668139737}
+  - {fileID: 663366244509670924}
+  - {fileID: 8511061484860307271}
+  - {fileID: 490844742952139360}
+  - {fileID: 2398352927366214258}
+  - {fileID: 963722054351723041}
   m_BlendShapeWeights: []
-  m_RootBone: {fileID: 4462568166856895039}
+  m_RootBone: {fileID: 4501978482820578242}
   m_AABB:
-    m_Center: {x: -0.07503752, y: 0.036680415, z: 0.011944845}
-    m_Extent: {x: 0.22778228, y: 0.23332156, z: 0.270248}
+    m_Center: {x: 0.023234896, y: 0.17655635, z: 0.0035186186}
+    m_Extent: {x: 0.08817568, y: 0.118605554, z: 0.059642375}
   m_DirtyAABB: 0
---- !u!1 &1177183060794156273
+--- !u!1 &3555773345085166517
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1322,93 +1776,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2900530643835675287}
+  - component: {fileID: 5041093579668139737}
   m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:IKH_R_Leg_Middle
+  m_Name: Player_monstruo_rig_fixed:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2900530643835675287
+--- !u!4 &5041093579668139737
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1177183060794156273}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.218943, y: 0.1735661, z: 0.027806}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3439669011941782534}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &1224465647852634030
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3798065825342577771}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_PV_Leg_Top_CTRL_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3798065825342577771
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1224465647852634030}
-  m_LocalRotation: {x: -0.698153, y: -0.39475384, z: -0.099987224, w: 0.5888586}
-  m_LocalPosition: {x: 0.09487397, y: 0.11629231, z: 0.07049883}
+  m_GameObject: {fileID: 3555773345085166517}
+  m_LocalRotation: {x: 0.0064073233, y: -0.019221932, z: 0.31616285, w: 0.94848853}
+  m_LocalPosition: {x: -0.04085708, y: -0.012462668, z: -0.0017900808}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2462460220764301533}
-  m_Father: {fileID: 1085404027102181723}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: -64.31195, y: -131.37122, z: 89.31662}
---- !u!1 &1369749017512164901
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5065800784501066794}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Claw_End
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5065800784501066794
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369749017512164901}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.15241253, y: 0.0046303393, z: 0.0010150971}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4138390244812458576}
+  - {fileID: 663366244509670924}
+  m_Father: {fileID: 8207082557703887320}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &1428772429268783861
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3617513381701725059
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1416,222 +1808,33 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4144913482165847115}
+  - component: {fileID: 996184569709084626}
   m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Leg_Top_CTRL_GRP
+  m_Name: Player_monstruo_rig_fixed:Spine_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4144913482165847115
+--- !u!4 &996184569709084626
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1428772429268783861}
-  m_LocalRotation: {x: -0.29353416, y: 0.28562266, z: -0.6483725, w: 0.64177144}
-  m_LocalPosition: {x: 0.15550116, y: 0.18352953, z: 0.1360144}
-  m_LocalScale: {x: -1, y: -1, z: -1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3742500274140202823}
-  m_Father: {fileID: 1085404027102181723}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: -0.36577445, y: 48.353848, z: -90.7505}
---- !u!1 &1480524126011960333
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8856635868028312871}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Leg_Middle_CTRL_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8856635868028312871
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480524126011960333}
-  m_LocalRotation: {x: 0.49839488, y: -0.50159997, z: 0.50159997, w: -0.49839488}
-  m_LocalPosition: {x: 0.22272116, y: 0.17212053, z: -0.024788609}
-  m_LocalScale: {x: -1, y: -1, z: -1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3878978401371565279}
-  m_Father: {fileID: 1085404027102181723}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0.36727712, y: 90, z: -90}
---- !u!1 &1495612695116607096
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5741579027455142319}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Bottom_CTRL_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5741579027455142319
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1495612695116607096}
-  m_LocalRotation: {x: 0.3191733, y: 0.34991807, z: 0.62859064, w: 0.61689514}
-  m_LocalPosition: {x: -0.17177814, y: 0.18989965, z: -0.18172717}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8882412673506939280}
-  m_Father: {fileID: 1085404027102181723}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -2.6432762, y: 56.498497, z: 89.655594}
---- !u!1 &1868011634356728898
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5986091940377273886}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:Neck_Base
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5986091940377273886
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1868011634356728898}
-  m_LocalRotation: {x: -0.38268346, y: 0.92387956, z: -8.0003916e-17, w: -3.3138708e-17}
-  m_LocalPosition: {x: -0.02, y: 0.12, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4746059129751285640}
-  m_Father: {fileID: 7977932526981839255}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 9.9231265e-15, y: 180, z: -45}
---- !u!1 &1898767672741913337
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2613144881801853378}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Middle_Top
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2613144881801853378
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1898767672741913337}
-  m_LocalRotation: {x: -0.0120368255, y: 0.78800285, z: -0.008200014, w: 0.61549926}
-  m_LocalPosition: {x: -0.1082304, y: 0.0037070652, z: -0.016090907}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3197416050368646546}
-  m_Father: {fileID: 8401751306578738080}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 1.4883709, y: 79.17066, z: 7.2339897}
---- !u!1 &2247314555359068623
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2081819396861331580}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Leg_Claw_CTRL_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2081819396861331580
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2247314555359068623}
-  m_LocalRotation: {x: -0.043590125, y: 0.0050892443, z: -0.7198593, w: 0.69273126}
-  m_LocalPosition: {x: 0.0353585, y: 0.064605005, z: 0.13924499}
-  m_LocalScale: {x: -1, y: -1, z: -1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8165652094721955346}
-  m_Father: {fileID: 3685669397534814631}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: -3.0418522, y: 4.008643, z: -92.30687}
---- !u!1 &2275028377080145863
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7408624845911584258}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:IKH_R_Leg_Bottom
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7408624845911584258
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2275028377080145863}
+  m_GameObject: {fileID: 3617513381701725059}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.17555599, y: 0.18378401, z: -0.12913299}
+  m_LocalPosition: {x: -0.08, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3439669011941782534}
+  m_Children:
+  - {fileID: 5936134816491766811}
+  - {fileID: 5634196721099322867}
+  - {fileID: 1252657029000721493}
+  m_Father: {fileID: 2795148553200436540}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &2345399364809692831
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3899408954339930737
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1639,30 +1842,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7789395197442232629}
+  - component: {fileID: 2715368613373994693}
   m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Top_End
+  m_Name: Player_monstruo_rig_fixed:L_Leg_Bottom_Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7789395197442232629
+--- !u!4 &2715368613373994693
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2345399364809692831}
-  m_LocalRotation: {x: -0.030049551, y: -0.2961458, z: -0.013622454, w: 0.9545728}
-  m_LocalPosition: {x: -0.18103191, y: -8.454637e-19, z: 2.361735e-17}
+  m_GameObject: {fileID: 3899408954339930737}
+  m_LocalRotation: {x: 0.05448838, y: 0.8726227, z: 0.0027764782, w: 0.48533803}
+  m_LocalPosition: {x: -0.103503466, y: 0.0074285003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5397203766906421822}
+  m_Children:
+  - {fileID: 9071683907824421316}
+  m_Father: {fileID: 7164795027043745886}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -3.7519696, y: -34.456436, z: -0.47136468}
---- !u!1 &2950789856708225452
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4388340127041312208
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1670,38 +1874,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3439669011941782534}
+  - component: {fileID: 7530138752736254893}
   m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:IKH_GRP
+  m_Name: Player_monstruo_rig_fixed:Base_Skeleton_GRP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3439669011941782534
+--- !u!4 &7530138752736254893
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2950789856708225452}
+  m_GameObject: {fileID: 4388340127041312208}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6317492494862388871}
-  - {fileID: 4220786339648166005}
-  - {fileID: 9219721703037356561}
-  - {fileID: 1659723364040998994}
-  - {fileID: 4211629146212025667}
-  - {fileID: 7408624845911584258}
-  - {fileID: 2900530643835675287}
-  - {fileID: 1190476537814229543}
-  m_Father: {fileID: 4811052741524624674}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &3093834021528860870
+  - {fileID: 4501978482820578242}
+  m_Father: {fileID: 5952749087680716311}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4451809751107532008
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1709,62 +1906,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8237037585672368040}
+  - component: {fileID: 5936134816491766811}
   m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Claw_Bottom
+  m_Name: Player_monstruo_rig_fixed:L_Leg_Middle_Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8237037585672368040
+--- !u!4 &5936134816491766811
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3093834021528860870}
-  m_LocalRotation: {x: -0.70618397, y: 0.006877533, z: 0.12602462, w: 0.6966884}
-  m_LocalPosition: {x: 0.06098, y: 0.019224552, z: -0.0198326}
+  m_GameObject: {fileID: 4451809751107532008}
+  m_LocalRotation: {x: 0.691733, y: 0.6656881, z: -0.19903032, w: 0.19685468}
+  m_LocalPosition: {x: 0.017805958, y: -0.010062514, z: 0.10119474}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4024333521503404343}
-  m_Father: {fileID: 7977932526981839255}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: -66.86006, y: 112.509315, z: -93.964325}
---- !u!1 &3103566880202052610
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2892895977003979169}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Top_CTRL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2892895977003979169
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3103566880202052610}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.033614617, y: -0.00044034023, z: 0.00021461726}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 500111955648937720}
+  - {fileID: 5971045705427209970}
+  m_Father: {fileID: 996184569709084626}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -43.736286, z: 0}
---- !u!1 &3200938575835202872
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4774025413245761244
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1772,814 +1938,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1704652048763869069}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Leg_Bottom_CTRL_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1704652048763869069
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3200938575835202872}
-  m_LocalRotation: {x: -0.61689514, y: 0.62859064, z: -0.34991807, w: 0.3191733}
-  m_LocalPosition: {x: 0.17933413, y: 0.18989953, z: -0.1817276}
-  m_LocalScale: {x: -1, y: -1, z: -1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4298819538760964035}
-  m_Father: {fileID: 1085404027102181723}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 2.6432762, y: 123.501495, z: -90.3444}
---- !u!1 &3281903308498662354
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3347398389178155190}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_PV_Leg_Middle_CTRL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3347398389178155190
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3281903308498662354}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -3.5527136e-17, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7397724633634179319}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &3482532276161934980
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6755060403673236884}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Middle_CTRL_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6755060403673236884
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3482532276161934980}
-  m_LocalRotation: {x: 0.49839488, y: 0.50159997, z: 0.50159997, w: 0.49839488}
-  m_LocalPosition: {x: -0.21273719, y: 0.21630098, z: -0.021081585}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7738602002757334587}
-  m_Father: {fileID: 1085404027102181723}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -0.36727712, y: 90, z: 90}
---- !u!1 &3510858911857329852
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1085404027102181723}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:Master_CTRL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1085404027102181723
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3510858911857329852}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.02320617, y: 0.0075928294, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5741579027455142319}
-  - {fileID: 6755060403673236884}
-  - {fileID: 500111955648937720}
-  - {fileID: 655934981585663352}
-  - {fileID: 870789367624394926}
-  - {fileID: 1113582598103868625}
-  - {fileID: 1704652048763869069}
-  - {fileID: 8856635868028312871}
-  - {fileID: 4144913482165847115}
-  - {fileID: 1952617413105257905}
-  - {fileID: 7397724633634179319}
-  - {fileID: 3798065825342577771}
-  - {fileID: 3716558377847406291}
-  m_Father: {fileID: 7449858192420556629}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &3562089421478407882
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4298819538760964035}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Bottom_CTRL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4298819538760964035
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3562089421478407882}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1704652048763869069}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -45.734417, z: 0}
---- !u!1 &3564121254899549911
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1113582598103868625}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_PV_Leg_Top_CTRL_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1113582598103868625
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3564121254899549911}
-  m_LocalRotation: {x: -0.43398315, y: -0.09139335, z: 0.89391327, w: -0.06500031}
-  m_LocalPosition: {x: -0.07871064, y: 0.11134859, z: 0.07251442}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5943838950958666696}
-  m_Father: {fileID: 1085404027102181723}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 12.698081, y: -51.55081, z: -177.83325}
---- !u!1 &3592928622677086372
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 870789367624394926}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_PV_Leg_Middle_CTRL_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &870789367624394926
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3592928622677086372}
-  m_LocalRotation: {x: 0.688191, y: -0.16245987, z: -0.16245987, w: 0.688191}
-  m_LocalPosition: {x: -0.10620833, y: 0.08473381, z: -0.028492412}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5709451522463846845}
-  m_Father: {fileID: 1085404027102181723}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 63.434963, y: -90, z: -90}
---- !u!1 &3595421448352349104
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9198358420377035715}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Claw_Top
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9198358420377035715
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3595421448352349104}
-  m_LocalRotation: {x: 0.12999873, y: 0.86013114, z: 0.03485644, w: 0.4919957}
-  m_LocalPosition: {x: -0.0791301, y: 0.0079072835, z: 0.000022064305}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3829142610191263105}
-  m_Father: {fileID: 1923762903022099924}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0.626328, y: 135.65411, z: 14.081275}
---- !u!1 &3805259725814132337
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1952617413105257905}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_PV_Leg_Bottom_CTRL_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1952617413105257905
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3805259725814132337}
-  m_LocalRotation: {x: -0.58449215, y: 0.057579853, z: 0.3819052, w: 0.7135839}
-  m_LocalPosition: {x: 0.10676095, y: 0.10779439, z: -0.13382025}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6464106159795618353}
-  m_Father: {fileID: 1085404027102181723}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: -61.41979, y: -49.591488, z: 87.00024}
---- !u!1 &3974418398673610225
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4024333521503404343}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Claw_Mid
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4024333521503404343
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3974418398673610225}
-  m_LocalRotation: {x: -0.122747906, y: -0.19480336, z: 0.021471314, w: 0.9728945}
-  m_LocalPosition: {x: 0.013199633, y: 0.00000008829108, z: 0.00000022621455}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4138390244812458576}
-  m_Father: {fileID: 8237037585672368040}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -13.818303, y: -61.85046, z: -1.3612193}
---- !u!1 &4028077854002272565
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8401751306578738080}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Middle_Middle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8401751306578738080
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4028077854002272565}
-  m_LocalRotation: {x: -0.00065848976, y: -0.6419262, z: -0.00089009025, w: 0.7667656}
-  m_LocalPosition: {x: -0.039426196, y: -4.440892e-18, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2613144881801853378}
-  m_Father: {fileID: 6944985867260113341}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -3.6837616, y: -29.094559, z: 2.8019834}
---- !u!1 &4044702289951933420
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5943838950958666696}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_PV_Leg_Top_CTRL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5943838950958666696
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4044702289951933420}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -1.7763568e-17, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1113582598103868625}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &4062316599118059902
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8446822897412037463}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_PV_Claw_CTRL_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8446822897412037463
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4062316599118059902}
-  m_LocalRotation: {x: 0.36667052, y: 0.3090169, z: -0.5655081, w: 0.67101556}
-  m_LocalPosition: {x: -0.02249421, y: -0.038123462, z: 0.07127344}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2851355951331788486}
-  m_Father: {fileID: 3685669397534814631}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 57.308018, y: -0.000009484221, z: -80.24601}
---- !u!1 &4073819895377067156
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3829142610191263105}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Claw_End
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3829142610191263105
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4073819895377067156}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.15241227, y: -0.0046303724, z: -0.0010143755}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9198358420377035715}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &4098373221957271322
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8882412673506939280}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Bottom_CTRL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8882412673506939280
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4098373221957271322}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.015372715, y: 0.00009240493, z: 0.00070971955}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 5741579027455142319}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -45.643234, z: 0}
---- !u!1 &4098707961691033928
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7872524608272606280}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Bottom_Middle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7872524608272606280
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4098707961691033928}
-  m_LocalRotation: {x: 0.015890444, y: -0.61867183, z: -0.019814016, w: 0.78523886}
-  m_LocalPosition: {x: -0.042317472, y: -0.0042603514, z: -0.0002653377}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8546117196977311451}
-  m_Father: {fileID: 7813966970187623161}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 1.6629438, y: -60.771057, z: 0.4824741}
---- !u!1 &4155317881951967890
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3685669397534814631}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:ROOT_CTRL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3685669397534814631
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4155317881951967890}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1178713774265650809}
-  - {fileID: 4765898727330973649}
-  - {fileID: 8446822897412037463}
-  - {fileID: 2081819396861331580}
-  - {fileID: 3132308649781437765}
-  m_Father: {fileID: 3716558377847406291}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &4215123105010508221
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2834297552865545403}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Leg_Middle_Top
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2834297552865545403
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4215123105010508221}
-  m_LocalRotation: {x: -0.00069049397, y: 0.8664971, z: 0.000736128, w: 0.49918112}
-  m_LocalPosition: {x: 0.10309615, y: -8.881784e-18, z: -7.9936054e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 904286029019184426}
-  m_Father: {fileID: 4644993735912164438}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.3158924, y: 94.30763, z: -1.4969258}
---- !u!1 &4231974273672543746
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7941813187162273075}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Leg_Top_Middle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7941813187162273075
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4231974273672543746}
-  m_LocalRotation: {x: -0.021244777, y: -0.6154575, z: 0.0436268, w: 0.786675}
-  m_LocalPosition: {x: 0.04340148, y: 0.0000002904881, z: -0.00000022125973}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2739135121562448525}
-  m_Father: {fileID: 2189000616391109921}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.09767575, y: -44.170883, z: 1.904121}
---- !u!1 &4470325860944316611
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3956993323242871000}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_PV_Claw_CTRL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3956993323242871000
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4470325860944316611}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.7763568e-17, y: 0, z: 0.0068606213}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3132308649781437765}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &4523962121911183920
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7949207073203578417}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Top_Bottom
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7949207073203578417
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4523962121911183920}
-  m_LocalRotation: {x: 0.5344038, y: 0.69523513, z: -0.47891417, w: -0.041254364}
-  m_LocalPosition: {x: 0.014042933, y: 0.0041370355, z: 0.060605988}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4330922464874923840}
-  m_Father: {fileID: 7977932526981839255}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 82.093704, y: -84.09739, z: 144.61166}
---- !u!1 &4545400509277765969
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6317492494862388871}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:IKH_L_Claw
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6317492494862388871
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4545400509277765969}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.02901013, y: 0.22498624, z: 0.2298399}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3439669011941782534}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &4551885686131411444
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3197416050368646546}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Middle_End
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3197416050368646546
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4551885686131411444}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.18561848, y: 1.6698625e-16, z: 3.929781e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2613144881801853378}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &4558431812752563440
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6464106159795618353}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_PV_Leg_Bottom_CTRL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6464106159795618353
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4558431812752563440}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.5527136e-17, y: 0.009494227, z: -0.0038978506}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1952617413105257905}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &4619097320063507384
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7813966970187623161}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Bottom_Bottom
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7813966970187623161
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4619097320063507384}
-  m_LocalRotation: {x: 0.64504033, y: 0.5782795, z: -0.005779609, w: 0.49948224}
-  m_LocalPosition: {x: -0.016215825, y: -0.00047403568, z: 0.07449652}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7872524608272606280}
-  m_Father: {fileID: 3704509840830782164}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 73.98569, y: 112.22657, z: 56.64911}
---- !u!1 &4695891225039931565
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7977932526981839255}
+  - component: {fileID: 2795148553200436540}
   m_Layer: 0
   m_Name: Player_monstruo_rig_fixed:Spine_01
   m_TagString: Untagged
@@ -2587,185 +1946,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7977932526981839255
+--- !u!4 &2795148553200436540
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4695891225039931565}
+  m_GameObject: {fileID: 4774025413245761244}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.03, y: -0.016229335, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7883802386418527608}
-  - {fileID: 7949207073203578417}
-  - {fileID: 5986091940377273886}
-  - {fileID: 8237037585672368040}
-  - {fileID: 2189000616391109921}
-  - {fileID: 4669748768494285206}
-  m_Father: {fileID: 4462568166856895039}
+  - {fileID: 6776540598536284509}
+  - {fileID: 3863421969573176398}
+  - {fileID: 8207082557703887320}
+  - {fileID: 3047070916966350369}
+  - {fileID: 8249850517446669628}
+  - {fileID: 996184569709084626}
+  m_Father: {fileID: 4501978482820578242}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &4894303551900893917
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7397724633634179319}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_PV_Leg_Middle_CTRL_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7397724633634179319
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4894303551900893917}
-  m_LocalRotation: {x: -0.688191, y: -0.16245987, z: 0.16245987, w: 0.688191}
-  m_LocalPosition: {x: 0.12365945, y: 0.07418346, z: -0.022081565}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3347398389178155190}
-  m_Father: {fileID: 1085404027102181723}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: -63.434963, y: -90, z: 90}
---- !u!1 &4938045321065059963
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4211629146212025667}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:IKH_R_Claw
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4211629146212025667
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4938045321065059963}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0353585, y: 0.22460501, z: 0.22924499}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3439669011941782534}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &4980961668052421313
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9098345538723994010}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Leg_Bottom_Bottom
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9098345538723994010
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4980961668052421313}
-  m_LocalRotation: {x: -0.49110568, y: 0.705722, z: 0.50284505, w: 0.08898652}
-  m_LocalPosition: {x: -0.0162158, y: -0.000474, z: -0.07449649}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2694663045813731853}
-  m_Father: {fileID: 3704509840830782164}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -72.98548, y: 12.872679, z: 104.706055}
---- !u!1 &5266798853681055069
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4462568166856895039}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:Base_Skeleton
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4462568166856895039
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5266798853681055069}
-  m_LocalRotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.17622934, z: 0.12}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7977932526981839255}
-  m_Father: {fileID: 6914688931202284367}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0, y: -90, z: 0}
---- !u!1 &5313188363776660396
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1659723364040998994}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:IKH_L_Leg_Top
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1659723364040998994
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5313188363776660396}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.15348214, y: 0.1742342, z: 0.18633798}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3439669011941782534}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5371900542231721853
 GameObject:
   m_ObjectHideFlags: 0
@@ -2781,6 +1982,7 @@ GameObject:
   - component: {fileID: 5866666021744163004}
   - component: {fileID: 5866666021744163005}
   - component: {fileID: 917327989518094579}
+  - component: {fileID: 1188293756994674391}
   m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
@@ -2800,9 +2002,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7449858192420556629}
-  - {fileID: 4897934328437298693}
-  - {fileID: 4811052741524624674}
+  - {fileID: 5914398405058509616}
+  - {fileID: 5952749087680716311}
   - {fileID: 118575534}
   - {fileID: 252388250}
   - {fileID: 418491117}
@@ -2856,8 +2057,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.6
-  m_Center: {x: 0, y: 0, z: 0.42}
+  m_Radius: 0.75
+  m_Center: {x: 0, y: 0, z: 0.68}
 --- !u!143 &5866666021744163004
 CharacterController:
   m_ObjectHideFlags: 0
@@ -2903,7 +2104,8 @@ MonoBehaviour:
   sphereRadius: 0.16
   gravity: -9.81
   jumpForce: 1
-  _animmator: {fileID: 1668354332090611645}
+  timeInIdle: 0
+  _animator: {fileID: 0}
 --- !u!114 &917327989518094579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2916,11 +2118,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1dbc0f0c664c584abf4b1e7d1dc3520, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemiesInRangeList: []
   closestEnemy: {fileID: 0}
+  enemiesInRangeList: []
+  enemyFP: {fileID: 0}
   haveCooldown: 0
   canPossess: 0
---- !u!1 &5591472450006293573
+--- !u!114 &1188293756994674391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5371900542231721853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6bba791093963b4ca3975d8d0acf114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerScriptStorage: {fileID: 0}
+  maxHealth: 0
+  currentHealth: 0
+--- !u!1 &5549983503895562013
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2928,7 +2146,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1190476537814229543}
+  - component: {fileID: 3013862147714877041}
   m_Layer: 0
   m_Name: Player_monstruo_rig_fixed:IKH_R_Leg_Top
   m_TagString: Untagged
@@ -2936,22 +2154,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1190476537814229543
+--- !u!4 &3013862147714877041
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5591472450006293573}
+  m_GameObject: {fileID: 5549983503895562013}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.151723, y: 0.1664296, z: 0.188609}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3439669011941782534}
+  m_Father: {fileID: 170443862174929315}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &5672717845391507713
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5966924527451977458
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2959,165 +2177,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 652982752858473536}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Leg_Bottom_Top
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &652982752858473536
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5672717845391507713}
-  m_LocalRotation: {x: 0.0065580974, y: 0.870294, z: -0.039704353, w: 0.49088588}
-  m_LocalPosition: {x: 0.10350348, y: -0.007427955, z: 0.00044063904}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6419873898245192637}
-  m_Father: {fileID: 2694663045813731853}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 7.6062527, y: 90.14163, z: 11.877159}
---- !u!1 &5681069828802055887
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5983644266188507016}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:Head
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5983644266188507016
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5681069828802055887}
-  m_LocalRotation: {x: -0.07088897, y: 0.9974842, z: -6.541899e-17, w: -5.6737595e-17}
-  m_LocalPosition: {x: -0.070710674, y: -3.330669e-18, z: -5.195736e-18}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4746059129751285640}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 7.938499e-15, y: -180, z: -8.1300955}
---- !u!1 &6085450930108049473
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 655934981585663352}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_PV_Leg_Bottom_CTRL_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &655934981585663352
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6085450930108049473}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.10315442, y: 0.108661495, z: -0.13424169}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7967057735779642223}
-  m_Father: {fileID: 1085404027102181723}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &6133838606082957028
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2694663045813731853}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Leg_Bottom_Middle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2694663045813731853
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6133838606082957028}
-  m_LocalRotation: {x: 0.015912475, y: -0.54262984, z: -0.003294543, w: 0.8398147}
-  m_LocalPosition: {x: 0.042317547, y: 0.0042603347, z: 0.0002652478}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 652982752858473536}
-  m_Father: {fileID: 9098345538723994010}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -3.4807284, y: -27.27866, z: 9.962521}
---- !u!1 &6209496462512274838
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7260738032835525512}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Leg_Top_End
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7260738032835525512
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6209496462512274838}
-  m_LocalRotation: {x: -0.02467775, y: -0.0006419926, z: -0.021898754, w: 0.9994554}
-  m_LocalPosition: {x: 0.18103154, y: 0.0000008039537, z: -0.00000041363066}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2739135121562448525}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -2.829082, y: -0.01161437, z: -2.510091}
---- !u!1 &6325787519541197947
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4811052741524624674}
+  - component: {fileID: 5952749087680716311}
   m_Layer: 0
   m_Name: Player_monstruo_rig_fixed:Skeleton_GRP
   m_TagString: Untagged
@@ -3125,568 +2185,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4811052741524624674
+--- !u!4 &5952749087680716311
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6325787519541197947}
+  m_GameObject: {fileID: 5966924527451977458}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.111, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6914688931202284367}
-  - {fileID: 3439669011941782534}
-  m_Father: {fileID: 4739761223766339015}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &6456911865028010520
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 500111955648937720}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Top_CTRL_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &500111955648937720
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6456911865028010520}
-  m_LocalRotation: {x: 0.64177144, y: 0.6483725, z: 0.28562263, w: 0.29353413}
-  m_LocalPosition: {x: -0.14970398, y: 0.2139679, z: 0.13374338}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2892895977003979169}
-  m_Father: {fileID: 1085404027102181723}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0.36577618, y: 131.64615, z: 89.24948}
---- !u!1 &6699364001470934517
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4746059129751285640}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:Neck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4746059129751285640
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6699364001470934517}
-  m_LocalRotation: {x: 0.0064073233, y: -0.019221932, z: 0.31616285, w: 0.94848853}
-  m_LocalPosition: {x: -0.04085708, y: -0.012462668, z: -0.0017900808}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5983644266188507016}
-  m_Father: {fileID: 5986091940377273886}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 1.3929434, y: -1.8579495, z: 23.84562}
---- !u!1 &7022432344148127141
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3132308649781437765}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_PV_Claw_CTRL_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3132308649781437765
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7022432344148127141}
-  m_LocalRotation: {x: 0.36667052, y: 0.3090169, z: -0.5655081, w: 0.67101556}
-  m_LocalPosition: {x: 0.03011673, y: -0.0332386, z: 0.078884736}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3956993323242871000}
-  m_Father: {fileID: 3685669397534814631}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 57.308018, y: -0.000009484221, z: -80.24601}
---- !u!1 &7078800390368560593
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4220786339648166005}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:IKH_L_Leg_Bottom
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4220786339648166005
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7078800390368560593}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.1690241, y: 0.17713344, z: -0.12913257}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3439669011941782534}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &7395139705299483698
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5397203766906421822}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Top_Top
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5397203766906421822
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7395139705299483698}
-  m_LocalRotation: {x: 0.010133763, y: 0.81646323, z: 0.011684437, w: 0.5771902}
-  m_LocalPosition: {x: -0.10661536, y: -5.439368e-18, z: 2.6459582e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7789395197442232629}
-  m_Father: {fileID: 4330922464874923840}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -4.255791, y: 84.96521, z: -1.6279328}
---- !u!1 &7405770572352264464
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3716558377847406291}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:ROOT_CTRL_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3716558377847406291
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7405770572352264464}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00377815, y: 0.16611552, z: 0.03740539}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3685669397534814631}
-  m_Father: {fileID: 1085404027102181723}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &7419051856632352545
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6914688931202284367}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:Base_Skeleton_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6914688931202284367
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7419051856632352545}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4462568166856895039}
-  m_Father: {fileID: 4811052741524624674}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &7450423211176837642
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7317104853153083117}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Leg_Middle_Bottom
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7317104853153083117
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7450423211176837642}
-  m_LocalRotation: {x: 0.66261435, y: -0.6402799, z: -0.27702478, w: -0.2724724}
-  m_LocalPosition: {x: 0.017806, y: -0.010062999, z: -0.101195}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4644993735912164438}
-  m_Father: {fileID: 4669748768494285206}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -88.30164, y: -170.73723, z: -99.46472}
---- !u!1 &7514077037895583594
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4644993735912164438}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Leg_Middle_Middle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4644993735912164438
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7514077037895583594}
-  m_LocalRotation: {x: 9.261344e-19, y: -0.6018679, z: -6.7494145e-18, w: 0.79859567}
-  m_LocalPosition: {x: 0.03942548, y: 0, z: 0.00000029344068}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2834297552865545403}
-  m_Father: {fileID: 7317104853153083117}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 1.5124665e-15, y: -50.306377, z: 1.1673108e-16}
---- !u!1 &7571150314182367859
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9219721703037356561}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:IKH_L_Leg_Middle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9219721703037356561
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7571150314182367859}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.2163542, y: 0.17266724, z: 0.031513024}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3439669011941782534}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &7609781212807670926
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2851355951331788486}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_PV_Claw_CTRL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2851355951331788486
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7609781212807670926}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.7763568e-17, y: 0, z: 0.0068606213}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8446822897412037463}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &7731229162513413422
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4669748768494285206}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:Spine_02
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4669748768494285206
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7731229162513413422}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.08, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6944985867260113341}
-  - {fileID: 7317104853153083117}
-  - {fileID: 3704509840830782164}
-  m_Father: {fileID: 7977932526981839255}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &7902092444790777130
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7738602002757334587}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Middle_CTRL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7738602002757334587
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7902092444790777130}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.037518475, y: -2.2204459e-17, z: -0.00007937846}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6755060403673236884}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -43.74533, z: 0}
---- !u!1 &7916047122370802585
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5648532530367849218}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:Spine_04
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5648532530367849218
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7916047122370802585}
-  m_LocalRotation: {x: 0, y: 0, z: 0.6278528, w: 0.7783322}
-  m_LocalPosition: {x: -0.049999997, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3704509840830782164}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -0, y: 0, z: 77.78375}
---- !u!1 &7974325111634865486
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8546117196977311451}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Bottom_Top
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8546117196977311451
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7974325111634865486}
-  m_LocalRotation: {x: 0.05448838, y: 0.8726227, z: 0.0027764782, w: 0.48533803}
-  m_LocalPosition: {x: -0.103503466, y: 0.0074285003, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8897615505584327809}
-  m_Father: {fileID: 7872524608272606280}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 7.5655084, y: 96.18911, z: -0.43169376}
---- !u!1 &8021395982635254683
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3704509840830782164}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:Spine_03
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3704509840830782164
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8021395982635254683}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.049999997, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7813966970187623161}
-  - {fileID: 9098345538723994010}
-  - {fileID: 5648532530367849218}
-  m_Father: {fileID: 4669748768494285206}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &8093177063711081468
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4897934328437298693}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:Monster_LP_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4897934328437298693
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8093177063711081468}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.22711986, z: 0.04889896}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4765960694876289579}
-  - {fileID: 3634101138947299286}
+  - {fileID: 7530138752736254893}
+  - {fileID: 170443862174929315}
   m_Father: {fileID: 4739761223766339015}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &8127913938915392046
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6274716463319265000
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3694,62 +2210,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7967057735779642223}
+  - component: {fileID: 3675804630211716568}
   m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_PV_Leg_Bottom_CTRL
+  m_Name: Player_monstruo_rig_fixed:R_Leg_Bottom_Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7967057735779642223
+--- !u!4 &3675804630211716568
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8127913938915392046}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: -1.7763568e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 655934981585663352}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0, y: -0, z: -0}
---- !u!1 &8167768969695408518
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7883802386418527608}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Claw_Bottom
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7883802386418527608
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8167768969695408518}
-  m_LocalRotation: {x: -0.024847269, y: 0.73631644, z: -0.67141443, w: 0.08014675}
-  m_LocalPosition: {x: 0.06098012, y: 0.019225039, z: 0.019832604}
+  m_GameObject: {fileID: 6274716463319265000}
+  m_LocalRotation: {x: -0.49110568, y: 0.705722, z: 0.50284505, w: 0.08898652}
+  m_LocalPosition: {x: -0.0162158, y: -0.000474, z: -0.07449649}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1923762903022099924}
-  m_Father: {fileID: 7977932526981839255}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 37.69398, y: -105.956314, z: 85.80951}
---- !u!1 &8197033933457767601
+  - {fileID: 4801395817883303463}
+  m_Father: {fileID: 1252657029000721493}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6302030204163862995
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3757,31 +2242,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1923762903022099924}
+  - component: {fileID: 7164795027043745886}
   m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Claw_Mid
+  m_Name: Player_monstruo_rig_fixed:L_Leg_Bottom_Middle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1923762903022099924
+--- !u!4 &7164795027043745886
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8197033933457767601}
-  m_LocalRotation: {x: -0.11978759, y: -0.21087816, z: 0.017882055, w: 0.96998024}
-  m_LocalPosition: {x: -0.013200041, y: 6.8835406e-19, z: -4.596332e-18}
+  m_GameObject: {fileID: 6302030204163862995}
+  m_LocalRotation: {x: 0.015890444, y: -0.61867183, z: -0.019814016, w: 0.78523886}
+  m_LocalPosition: {x: -0.042317472, y: -0.0042603514, z: -0.0002653377}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 9198358420377035715}
-  m_Father: {fileID: 7883802386418527608}
+  - {fileID: 2715368613373994693}
+  m_Father: {fileID: 7239723287602307198}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -18.554365, y: -81.62566, z: -2.1061857}
---- !u!1 &8307149233493137097
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6456029133931477777
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3789,93 +2274,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4920904165396472828}
+  - component: {fileID: 772781938033380719}
   m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Claw_CTRL
+  m_Name: Player_monstruo_rig_fixed:L_Leg_Middle_Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4920904165396472828
+--- !u!4 &772781938033380719
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8307149233493137097}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4765898727330973649}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 16.939245, z: 0}
---- !u!1 &8353580922044405555
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8897615505584327809}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Bottom_End
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8897615505584327809
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8353580922044405555}
-  m_LocalRotation: {x: -0.0118460525, y: -0.014412848, z: 0.021241568, w: 0.9996003}
-  m_LocalPosition: {x: -0.1858738, y: -0.007967317, z: -0.005269202}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8546117196977311451}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -1.3219498, y: -1.6804531, z: 2.4540994}
---- !u!1 &8606997152291372375
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4138390244812458576}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Claw_Top
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4138390244812458576
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8606997152291372375}
-  m_LocalRotation: {x: 0.09720814, y: 0.862958, z: -0.01315067, w: 0.49566227}
-  m_LocalPosition: {x: 0.07913034, y: -0.00790729, z: -0.000021717953}
+  m_GameObject: {fileID: 6456029133931477777}
+  m_LocalRotation: {x: -0.0120368255, y: 0.78800285, z: -0.008200014, w: 0.61549926}
+  m_LocalPosition: {x: -0.1082304, y: 0.0037070652, z: -0.016090907}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5065800784501066794}
-  m_Father: {fileID: 4024333521503404343}
+  - {fileID: 1590649238745383574}
+  m_Father: {fileID: 5971045705427209970}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 11.74188, y: 93.92827, z: -0.00046129918}
---- !u!1 &8641758406990385142
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6468021521920748395
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3883,164 +2306,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3742500274140202823}
+  - component: {fileID: 7934672870618843047}
+  - component: {fileID: 7463270918323274609}
   m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Leg_Top_CTRL
+  m_Name: Player_monstruo_rig_fixed:Body_LP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3742500274140202823
+--- !u!4 &7934672870618843047
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8641758406990385142}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.010983226, y: -0.00014387659, z: 0.00007012396}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4144913482165847115}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -44.284172, z: 0}
---- !u!1 &8760036273571011259
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1178713774265650809}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:Head_CTRL_GRP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1178713774265650809
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8760036273571011259}
-  m_LocalRotation: {x: -0.051131446, y: 0.6908919, z: -0.049100183, w: 0.7194742}
-  m_LocalPosition: {x: 0.0030274657, y: 0.17391653, z: 0.2679732}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1663268754165496640}
-  m_Father: {fileID: 3685669397534814631}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0.328288, y: 87.70133, z: -8.123516}
---- !u!1 &8776468296904613272
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6944985867260113341}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:L_Leg_Middle_Bottom
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6944985867260113341
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8776468296904613272}
-  m_LocalRotation: {x: 0.691733, y: 0.6656881, z: -0.19903032, w: 0.19685468}
-  m_LocalPosition: {x: 0.017805958, y: -0.010062514, z: 0.10119474}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8401751306578738080}
-  m_Father: {fileID: 4669748768494285206}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 77.56152, y: 8.278075, z: -85.722}
---- !u!1 &9075161195407493297
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2189000616391109921}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Leg_Top_Bottom
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2189000616391109921
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9075161195407493297}
-  m_LocalRotation: {x: -0.63681316, y: 0.58179855, z: -0.074983455, w: 0.5003568}
-  m_LocalPosition: {x: 0.014043, y: 0.004137, z: -0.060605995}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7941813187162273075}
-  m_Father: {fileID: 7977932526981839255}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: -84.094215, y: 65.920975, z: -18.089506}
---- !u!1 &9099493789454147529
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3634101138947299286}
-  - component: {fileID: 6880899128047406132}
-  m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:Head_LP
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3634101138947299286
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9099493789454147529}
+  m_GameObject: {fileID: 6468021521920748395}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: -0.22711988, z: -0.04889896}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4897934328437298693}
-  m_RootOrder: 1
+  m_Father: {fileID: 5914398405058509616}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &6880899128047406132
+--- !u!137 &7463270918323274609
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9099493789454147529}
+  m_GameObject: {fileID: 6468021521920748395}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -4054,7 +2350,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5fe2855f91ab99842a4786b4b3325a9c, type: 2}
+  - {fileID: -4775903486887715252, guid: c36361b5d21df324ab2c3db2c259c7bf, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4079,24 +2375,55 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 5611566693992783526, guid: c36361b5d21df324ab2c3db2c259c7bf, type: 3}
+  m_Mesh: {fileID: 6126933956043511182, guid: c36361b5d21df324ab2c3db2c259c7bf, type: 3}
   m_Bones:
-  - {fileID: 4462568166856895039}
-  - {fileID: 7977932526981839255}
-  - {fileID: 5986091940377273886}
-  - {fileID: 4746059129751285640}
-  - {fileID: 5983644266188507016}
-  - {fileID: 4024333521503404343}
-  - {fileID: 4138390244812458576}
-  - {fileID: 1923762903022099924}
-  - {fileID: 9198358420377035715}
+  - {fileID: 4501978482820578242}
+  - {fileID: 2795148553200436540}
+  - {fileID: 996184569709084626}
+  - {fileID: 1252657029000721493}
+  - {fileID: 6941795378553907667}
+  - {fileID: 7239723287602307198}
+  - {fileID: 7164795027043745886}
+  - {fileID: 2715368613373994693}
+  - {fileID: 9071683907824421316}
+  - {fileID: 3675804630211716568}
+  - {fileID: 4801395817883303463}
+  - {fileID: 4545418430584343545}
+  - {fileID: 794325775809228815}
+  - {fileID: 5936134816491766811}
+  - {fileID: 5971045705427209970}
+  - {fileID: 772781938033380719}
+  - {fileID: 1590649238745383574}
+  - {fileID: 5634196721099322867}
+  - {fileID: 615688023794320433}
+  - {fileID: 2283664871994106449}
+  - {fileID: 6782606049619555451}
+  - {fileID: 8207082557703887320}
+  - {fileID: 5041093579668139737}
+  - {fileID: 663366244509670924}
+  - {fileID: 8249850517446669628}
+  - {fileID: 6606295719410354792}
+  - {fileID: 5658574316680882414}
+  - {fileID: 3847696961622160538}
+  - {fileID: 3863421969573176398}
+  - {fileID: 4681081645055831472}
+  - {fileID: 7112998161289697583}
+  - {fileID: 3672617910243561815}
+  - {fileID: 3047070916966350369}
+  - {fileID: 8511061484860307271}
+  - {fileID: 490844742952139360}
+  - {fileID: 1954921889330084519}
+  - {fileID: 6776540598536284509}
+  - {fileID: 2398352927366214258}
+  - {fileID: 963722054351723041}
+  - {fileID: 6463030452374424561}
   m_BlendShapeWeights: []
-  m_RootBone: {fileID: 4462568166856895039}
+  m_RootBone: {fileID: 4501978482820578242}
   m_AABB:
-    m_Center: {x: 0.023235053, y: 0.17655647, z: 0.003518626}
-    m_Extent: {x: 0.08817572, y: 0.118605606, z: 0.059642375}
+    m_Center: {x: -0.075037554, y: 0.036680408, z: 0.01194483}
+    m_Extent: {x: 0.2277822, y: 0.23332158, z: 0.27024788}
   m_DirtyAABB: 0
---- !u!1 &9203486945255133207
+--- !u!1 &6489772552306692621
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4104,26 +2431,501 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3878978401371565279}
+  - component: {fileID: 3047070916966350369}
   m_Layer: 0
-  m_Name: Player_monstruo_rig_fixed:R_Leg_Middle_CTRL
+  m_Name: Player_monstruo_rig_fixed:R_Claw_Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3878978401371565279
+--- !u!4 &3047070916966350369
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9203486945255133207}
+  m_GameObject: {fileID: 6489772552306692621}
+  m_LocalRotation: {x: -0.70618397, y: 0.006877533, z: 0.12602462, w: 0.6966884}
+  m_LocalPosition: {x: 0.06098, y: 0.019224552, z: -0.0198326}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8511061484860307271}
+  m_Father: {fileID: 2795148553200436540}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6773841330061929874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1954921889330084519}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:R_Claw_End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1954921889330084519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6773841330061929874}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0075609493, y: 1.6395533e-21, z: 0.000048467624}
+  m_LocalPosition: {x: 0.15241253, y: 0.0046303393, z: 0.0010150971}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8856635868028312871}
+  m_Father: {fileID: 490844742952139360}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -44.687565, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6840064074273529864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5971045705427209970}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:L_Leg_Middle_Middle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5971045705427209970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6840064074273529864}
+  m_LocalRotation: {x: -0.00065848976, y: -0.6419262, z: -0.00089009025, w: 0.7667656}
+  m_LocalPosition: {x: -0.039426196, y: -4.440892e-18, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 772781938033380719}
+  m_Father: {fileID: 5936134816491766811}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6915310740114232526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9071683907824421316}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:L_Leg_Bottom_End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9071683907824421316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6915310740114232526}
+  m_LocalRotation: {x: -0.0118460525, y: -0.014412848, z: 0.021241568, w: 0.9996003}
+  m_LocalPosition: {x: -0.1858738, y: -0.007967317, z: -0.005269202}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2715368613373994693}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6933060928995060518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7112998161289697583}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:L_Leg_Top_Top
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7112998161289697583
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6933060928995060518}
+  m_LocalRotation: {x: 0.010133763, y: 0.81646323, z: 0.011684437, w: 0.5771902}
+  m_LocalPosition: {x: -0.10661536, y: -5.439368e-18, z: 2.6459582e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3672617910243561815}
+  m_Father: {fileID: 4681081645055831472}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7269737365249737275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4545418430584343545}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:R_Leg_Bottom_Top
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4545418430584343545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7269737365249737275}
+  m_LocalRotation: {x: 0.0065580974, y: 0.870294, z: -0.039704353, w: 0.49088588}
+  m_LocalPosition: {x: 0.10350348, y: -0.007427955, z: 0.00044063904}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 794325775809228815}
+  m_Father: {fileID: 4801395817883303463}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7652397701719505809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3672617910243561815}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:L_Leg_Top_End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3672617910243561815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7652397701719505809}
+  m_LocalRotation: {x: -0.030049551, y: -0.2961458, z: -0.013622454, w: 0.9545728}
+  m_LocalPosition: {x: -0.18103191, y: -8.454637e-19, z: 2.361735e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7112998161289697583}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7696351385159792560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1667605251514880786}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:IKH_R_Claw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1667605251514880786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7696351385159792560}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0353585, y: 0.22460501, z: 0.22924499}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 170443862174929315}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8034046360724296532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7491580670259406890}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:IKH_L_Leg_Top
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7491580670259406890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8034046360724296532}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.15348214, y: 0.1742342, z: 0.18633798}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 170443862174929315}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8127103740332102869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7239723287602307198}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:L_Leg_Bottom_Bottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7239723287602307198
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127103740332102869}
+  m_LocalRotation: {x: 0.64504033, y: 0.5782795, z: -0.005779609, w: 0.49948224}
+  m_LocalPosition: {x: -0.016215825, y: -0.00047403568, z: 0.07449652}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7164795027043745886}
+  m_Father: {fileID: 1252657029000721493}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8374658150012282628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2031725200200016226}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:IKH_L_Claw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2031725200200016226
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8374658150012282628}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.02901013, y: 0.22498624, z: 0.2298399}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 170443862174929315}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8648057137447247471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6776540598536284509}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:L_Claw_Bottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6776540598536284509
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8648057137447247471}
+  m_LocalRotation: {x: -0.024847269, y: 0.73631644, z: -0.67141443, w: 0.08014675}
+  m_LocalPosition: {x: 0.06098012, y: 0.019225039, z: 0.019832604}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2398352927366214258}
+  m_Father: {fileID: 2795148553200436540}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8695280928321943417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1252657029000721493}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:Spine_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1252657029000721493
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8695280928321943417}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.049999997, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7239723287602307198}
+  - {fileID: 3675804630211716568}
+  - {fileID: 6941795378553907667}
+  m_Father: {fileID: 996184569709084626}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8824115919802293678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6782606049619555451}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:R_Leg_Middle_End
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6782606049619555451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8824115919802293678}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.1856185, y: 0, z: 0.00000083780327}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2283664871994106449}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8880575707931853797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4681081645055831472}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:L_Leg_Top_Middle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4681081645055831472
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8880575707931853797}
+  m_LocalRotation: {x: -0.01631527, y: -0.6140696, z: 0.036942944, w: 0.78821796}
+  m_LocalPosition: {x: -0.04340176, y: 2.305029e-18, z: -6.1786384e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7112998161289697583}
+  m_Father: {fileID: 3863421969573176398}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9047300549882644702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6941795378553907667}
+  m_Layer: 0
+  m_Name: Player_monstruo_rig_fixed:Spine_04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6941795378553907667
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9047300549882644702}
+  m_LocalRotation: {x: 0, y: 0, z: 0.6278528, w: 0.7783322}
+  m_LocalPosition: {x: -0.049999997, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1252657029000721493}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

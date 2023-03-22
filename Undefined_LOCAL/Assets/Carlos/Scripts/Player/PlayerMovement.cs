@@ -33,17 +33,17 @@ public class PlayerMovement : MonoBehaviour
     
     [Header("--- ANIMATOR ---")] 
     [Space(10)] 
-    [SerializeField] private Animator _animmator;
+    [SerializeField] private Animator _animator;
     
     //GETTERS & SETTERS//
-    
+    public Animator Animator => _animator;
 
     /////////////////////////////////////////
 
     private void Awake()
     {
         _characterController = GetComponent<CharacterController>();
-        _animmator = GetComponent<Animator>();
+        _animator = GetComponent<Animator>();
         playerCamera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>().transform;
         groundCheck = transform.GetChild(2);
     }
@@ -64,7 +64,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             speed = 2f;
-            _animmator.SetFloat("SpeedAnimation", 2.25f);
+            _animator.SetFloat("SpeedAnimation", 2.25f);
         }
         
         Jump();
@@ -94,13 +94,13 @@ public class PlayerMovement : MonoBehaviour
             //Movemos el player hacia el frente;
             _characterController.Move(moveDir.normalized * speed * Time.deltaTime);
             
-            _animmator.SetBool("IsWalking", true);
+            _animator.SetBool("IsWalking", true);
             timeInIdle = 0f;
         }
         else
         {
             MakeIdle2();
-            _animmator.SetBool("IsWalking", false);
+            _animator.SetBool("IsWalking", false);
         }
     }
 
@@ -109,13 +109,13 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             speed = 4f;
-            _animmator.SetFloat("SpeedAnimation", 3f);
+            _animator.SetFloat("SpeedAnimation", 3f);
         }
 
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             speed = 2f;
-            _animmator.SetFloat("SpeedAnimation", 2.25f);
+            _animator.SetFloat("SpeedAnimation", 2.25f);
         }
     }
 
@@ -123,7 +123,7 @@ public class PlayerMovement : MonoBehaviour
     {
         //Seteamos el bool con una esfera invisible triggered;
         isGrounded = Physics.CheckSphere(groundCheck.position, sphereRadius, groundMask);
-        _animmator.SetBool("IsGrounded", isGrounded);
+        _animator.SetBool("IsGrounded", isGrounded);
         
         //si estamos en el suelo y no estamos cayendo el eje "Y" será "-2";
         if (isGrounded && velocity.y < 0)
@@ -136,7 +136,7 @@ public class PlayerMovement : MonoBehaviour
         {
             //igualamos nuestro eje "Y" a los valores de la raíz cuadrada (el resultado debería ser valor positivo);
             velocity.y = Mathf.Sqrt(jumpForce * -2 * gravity);
-            _animmator.SetTrigger("Jump");
+            _animator.SetTrigger("Jump");
         }
       
         //El eje "Y" irá progresivamente a 0;
@@ -154,7 +154,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (Random.value > 0.7f)
             {
-                _animmator.SetTrigger("Idle2");
+                _animator.SetTrigger("Idle2");
             }
             
             timeInIdle = 0f;

@@ -351,7 +351,7 @@ GameObject:
   - component: {fileID: 784961415392612800}
   - component: {fileID: 784961415392612815}
   - component: {fileID: 7256677376688231046}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Scientist
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -434,8 +434,8 @@ MonoBehaviour:
   waypointStorage: {fileID: 0}
   waypointsList: []
   waypointsListIndex: 0
+  playerRef: {fileID: 0}
   isPlayerDetected: 0
-  isSoldier: 0
   maxHealth: 100
   currentHealth: 100
   _animator: {fileID: 784961415392612803}
@@ -467,7 +467,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784961415392612805}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.34
   m_Height: 1.83
@@ -494,7 +494,7 @@ MonoBehaviour:
     edgeDilateAmount: 5
     frontEdgeDilateAmount: 5
     backEdgeDilateAmount: 5
-    renderer: {fileID: 0}
+    renderer: {fileID: 6413031646417629092}
     SubmeshIndex: 0
     BoundsMode: 0
     Bounds:

@@ -31,10 +31,6 @@ public class Enemy_IA : MonoBehaviour
     [Header("--- ANIMATOR ---")]
     [Space(10)]
     [SerializeField] protected Animator _animator;
-    
-    [Header("--- FPS ---")]
-    [Space(10)]
-    [SerializeField] protected Transform fps;
 
     private Coroutine detectPlayerByShot;
 
@@ -94,7 +90,7 @@ public class Enemy_IA : MonoBehaviour
             //Si el NPC tiene un path asignado y no ve al player hace su path;
             if (_navMeshAgent.hasPath && !_enemyScriptStorage.FieldOfView.canSeePlayer)
             {
-                Debug.Log("Player Not Detected");
+                Debug.Log("<color=green>Player Not Detected</color>");
                 UpdatePath();   
             }
 
@@ -138,7 +134,7 @@ public class Enemy_IA : MonoBehaviour
         //Si la alarma ya ha sido activada no realizara la lógica restante;
         if (Level1Manager.instance.AlarmActivated) return;
         
-        Debug.Log("Going Activate Alarm");
+        Debug.Log("<color=red>Going Activate Alarm</color>");
         Debug.Log(Vector3.Distance(transform.position, Level1Manager.instance.AlarmWaypoint.position));
 
         //Si el componente "NavMeshAgent" está activo...;
@@ -209,11 +205,13 @@ public class Enemy_IA : MonoBehaviour
         }
     }
 
+    //Corrutina para dejar de detectar al player;
     private IEnumerator DetectPlayer()
     {
         _enemyScriptStorage.FieldOfView.canSeePlayer = true;
         yield return new WaitForSeconds(3f);
         
+        //si no consigue ver al player...;
         if (!_enemyScriptStorage.FieldOfView.canSeePlayer)
         {
             _enemyScriptStorage.FieldOfView.canSeePlayer = false; 

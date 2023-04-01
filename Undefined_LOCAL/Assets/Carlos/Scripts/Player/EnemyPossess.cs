@@ -15,7 +15,12 @@ public class EnemyPossess : MonoBehaviour
     [SerializeField] private GameObject enemyFP;
     [SerializeField] private bool haveCooldown;
     [SerializeField] private bool canPossess = true;
-    
+
+    private void Awake()
+    {
+        enemyFP = FindObjectOfType<SoldierFP_Controller>().gameObject;
+    }
+
     void Start()
     {
         enemyFP.SetActive(false);
@@ -36,6 +41,7 @@ public class EnemyPossess : MonoBehaviour
         }
     }
 
+    //Método para poseer a un enemigo;
     private void PossessEnemy()
     {
         enemyFP.transform.position = closestEnemy.transform.position;
@@ -43,6 +49,7 @@ public class EnemyPossess : MonoBehaviour
         enemyFP.SetActive(true);
         enemyFP.GetComponent<EnemyDespossess>()?.StartUp(closestEnemy, gameObject);
         closestEnemy.EnemyScriptStorage.Outlinable.enabled = false;
+        closestEnemy.EnemyScriptStorage.EnemyIa.enabled = false;
         closestEnemy.gameObject.SetActive(false);
         closestEnemy = null;
         enemiesInRangeList.Clear();
@@ -135,6 +142,7 @@ public class EnemyPossess : MonoBehaviour
                 }
             }
 
+            //Si el enemigo no puede ser poseido no se hará la lógica restante;
             if (!other.GetComponent<Enemy_IA>().CanBePossessed)
             {
                return; 

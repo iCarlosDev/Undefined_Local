@@ -49,7 +49,7 @@ public class Soldier_IA : Enemy_IA
     //Método para seguir y disparar al player;
     private void ChasePlayer()
     {
-        Debug.Log("Chasing Player...");
+        Debug.Log("<color=orange>Chasing Player...</color>");
 
         //Si el componente "NavMeshAgent" está activo...;
         if (_navMeshAgent.enabled)
@@ -84,14 +84,12 @@ public class Soldier_IA : Enemy_IA
 
     private void Shoot()
     {
-        Debug.Log("Shooting...");
-        
+        Debug.Log("<color=purple>Shooting...</color>");
     }
 
     private void Kick()
     {
-        Debug.Log("Kicking...");
-        
+        Debug.Log("<color=purple>Kicking...</color>");
     }
 
     #endregion
@@ -100,14 +98,14 @@ public class Soldier_IA : Enemy_IA
 
     private void FindPlayer()
     {
-        Debug.Log("Checking Last Player Position");
+        Debug.Log("<color=blue>Checking Last Player Position</color>");
         _navMeshAgent.SetDestination(_navMeshAgent.destination);
         _navMeshAgent.stoppingDistance = 0f;
         
         //Comprobamos que el NPC ha llegado a la última posición donde ha visto al Player;
         if (Vector3.Distance(transform.position, _navMeshAgent.destination) < 0.1f)
         {
-            Debug.Log("Finding Player...");
+            Debug.Log("<color=blue>Finding Player...</color>");
             
             //Comprobamos si hay waypoints en la lista y si está buscando en una sala;
             if (roomWaypoints.Count != 0 && searchingInRoom)
@@ -159,7 +157,7 @@ public class Soldier_IA : Enemy_IA
             StopCoroutine(findPlayerCooldown);
             findPlayerCooldown = null;
                 
-            Debug.Log("Player Found");
+            Debug.Log("<color=orange>Player Found</color>");
         }
 
         //Si la corrutina "FindInRoomCooldown" estaba en ejecución y volvemos a encontrar al player la detenemos;
@@ -223,7 +221,7 @@ public class Soldier_IA : Enemy_IA
         yield return new WaitForSeconds(30f);
         searchingInRoom = false;
 
-        Debug.LogWarning("Stop Searching In Room");
+        Debug.LogWarning("<color=orange>Stop Searching In Room</color>");
     }
     
     #endregion

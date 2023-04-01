@@ -1901,7 +1901,6 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 100
   _animator: {fileID: 4559934169586597651}
-  fps: {fileID: 0}
   EnemyType: 0
   canBePossessed: 1
   dumping: 3
@@ -2757,7 +2756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _enemyScriptStorage: {fileID: 0}
   _rigidbody: {fileID: 0}
-  damage: 50
+  damage: 100
 --- !u!1 &6177002989350037476
 GameObject:
   m_ObjectHideFlags: 0

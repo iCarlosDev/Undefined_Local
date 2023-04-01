@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     //Variables
     [SerializeField] private CharacterController _characterController;
+    [SerializeField] private PlayerScriptStorage _playerScriptStorage;
     
     [Header("--- MOVEMENT ---")]
     [Space(10)]
@@ -43,6 +44,7 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         _characterController = GetComponent<CharacterController>();
+        _playerScriptStorage = GetComponent<PlayerScriptStorage>();
         _animator = GetComponent<Animator>();
         playerCamera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>().transform;
         groundCheck = transform.GetChild(2);
@@ -55,19 +57,38 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        Movement();
+        CalculateGravity();
 
-        if (isGrounded && _characterController.velocity.magnitude >= 0.1f)
+        //Si el player tiene vida se hará la lógica restante;
+        if (_playerScriptStorage.PlayerHealth.CurrentHealth > 0)
         {
-            Sprint();   
+            Movement();
+            
+            //Comprobamos si el player está en el suelo y en movimiento;
+            if (isGrounded && _characterController.velocity.magnitude >= 0.1f)
+            {
+                //Comprobamos que la vida de el player sea mayor a la vida requerida;
+                if (_playerScriptStorage.PlayerHealth.CurrentHealth > _playerScriptStorage.PlayerHealth.RequiredHealth)
+                {
+                    Sprint(); 
+                }
+                else
+                {
+                    speed = 1f;
+                }
+            }
+            else
+            {
+                speed = 2f;
+                _animator.SetFloat("SpeedAnimation", 2.25f);
+            }
+
+            //Comprobamos que la vida de el player sea mayor a la vida requerida;
+            if (_playerScriptStorage.PlayerHealth.CurrentHealth > _playerScriptStorage.PlayerHealth.RequiredHealth)
+            {
+                Jump();
+            }
         }
-        else
-        {
-            speed = 2f;
-            _animator.SetFloat("SpeedAnimation", 2.25f);
-        }
-        
-        Jump();
     }
 
     private void Movement()
@@ -75,7 +96,7 @@ public class PlayerMovement : MonoBehaviour
         //Guardo en estas variables las teclas WASD;
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
-        
+
         //Recogemos los valores WASD en positivo y los guardo como "direction";
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
         
@@ -102,6 +123,15 @@ public class PlayerMovement : MonoBehaviour
             MakeIdle2();
             _animator.SetBool("IsWalking", false);
         }
+    }
+    
+    private void CalculateGravity()
+    {
+        //El eje "Y" irá progresivamente a 0;
+        velocity.y += gravity * Time.deltaTime;
+        
+        //Movemos al personaje en el eje "Y" para tener gravedad;
+        _characterController.Move(velocity * Time.deltaTime);
     }
 
     private void Sprint()
@@ -138,25 +168,22 @@ public class PlayerMovement : MonoBehaviour
             velocity.y = Mathf.Sqrt(jumpForce * -2 * gravity);
             _animator.SetTrigger("Jump");
         }
-      
-        //El eje "Y" irá progresivamente a 0;
-        velocity.y += gravity * Time.deltaTime;
-        
-        //Movemos al personaje en el eje "Y" cada vez que saltemos;
-        _characterController.Move(velocity * Time.deltaTime);
     }
 
     private void MakeIdle2()
     {
         timeInIdle += Time.deltaTime;
         
+        //Si pasas 10 sec quieto...;
         if (timeInIdle >= 10f)
         {
+            //Si sale un número mayor de 0.7...;
             if (Random.value > 0.7f)
             {
                 _animator.SetTrigger("Idle2");
             }
             
+            //reseteamos el tiempo en idle;
             timeInIdle = 0f;
         }
     }
